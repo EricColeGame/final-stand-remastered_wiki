@@ -2,8 +2,8 @@
   "site": {
     "name": "Final Stand Remastered Wiki",
     "shortName": "Final Stand Remastered",
-    "tagline": "Codes, Races, Builds & Guides",
-    "description": "Your ultimate Final Stand Remastered guide on Roblox! Explore active codes, race and build guides, boss strategies, and fast progression tips.",
+    "tagline": "Codes, Weapons, Upgrades & Guides",
+    "description": "Final Stand Remastered Wiki provides weapon guides, gameplay tips, update information, strategies, and essential resources to help Roblox players master battles and progression.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -26,21 +26,21 @@
   },
   "home": {
     "meta": {
-      "title": "Final Stand Remastered Wiki - Codes, Races & Guides",
-      "description": "Final Stand Remastered Wiki provides race guides, build tips, transformation details, update information, and strategies to help Roblox players progress faster."
+      "title": "Final Stand Remastered Wiki - Codes, Weapons & Guides",
+      "description": "Final Stand Remastered Wiki provides weapon guides, gameplay tips, update information, strategies, and essential resources to help Roblox players master battles and progression."
     },
     "hero": {
-      "eyebrow": "Roblox Dragon Ball RPG",
+      "eyebrow": "Roblox Tactical Survival Shooter",
       "title": "Final Stand Remastered Wiki",
-      "description": "Final Stand Remastered is a Roblox Dragon Ball RPG built around races, transformations, ki moves, and intense PvP battles. Explore guides, builds, boss strategies, and the latest game updates.",
+      "description": "Final Stand Remastered is a Roblox combat survival game focused on intense battles, weapons, upgrades, and tactical gameplay. Explore guides, equipment information, strategies, and the latest game updates.",
       "stats": [
-        "Roblox",
-        "Races & Builds",
+        "Weapons Available",
+        "Upgrades & Loadouts",
         "0 Active Codes",
         "Weekly Updates"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Races & Builds Guide",
+      "secondaryCta": "Weapons Guide",
       "tertiaryCta": "Play on Roblox",
       "videoLabel": "Official media"
     },
@@ -380,12 +380,12 @@
   },
   "footer": {
     "aboutTitle": "Final Stand Remastered Wiki",
-    "about": "Final Stand Remastered Wiki is an independent fan-built guide hub covering races, builds, bosses, transformations, and essential game knowledge for new and veteran players alike.",
+    "about": "Final Stand Remastered Wiki is an independent fan-built guide hub covering weapons, upgrades, maps, bosses, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
     "copyright": "2026 Final Stand Remastered Wiki. Not affiliated with the game's developers or Roblox.",
-    "description": "Free Dragon Ball RPG on Roblox. Multiple races, transformations, ki moves, and a level 305 cap.",
+    "description": "Free tactical survival shooter on Roblox. Intense battles, weapons, upgrades, and squad-based combat.",
     "playGame": "Play Final Stand Remastered on Roblox",
     "officialDiscord": "Official Roblox Community",
     "officialYoutube": "Gameplay Videos",

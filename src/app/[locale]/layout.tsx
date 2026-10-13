@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     metadataBase: new URL(siteUrl),
     title: { default: "Final Stand Remastered Wiki", template: "%s" },
-    description: "Complete Final Stand Remastered fan wiki with codes, races, builds, transformations, bosses and progression walkthroughs.",
+    description: "Complete Final Stand Remastered fan wiki with codes, weapons, upgrades, maps, bosses and progression walkthroughs.",
     openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, title: "Final Stand Remastered Wiki", description: siteConfig.description, images: [{ url: image, width: 1024, height: 576, alt: `${siteConfig.name} key art` }] },
     twitter: { card: "summary_large_image", title: "Final Stand Remastered Wiki", description: siteConfig.description, images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
