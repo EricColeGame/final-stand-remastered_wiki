@@ -32,6 +32,6 @@ export const siteConfig: SiteConfig = {
     discord: "https://www.roblox.com/communities/3263088",
     youtube: "https://www.youtube.com/results?search_query=Final+Stand+Remastered+Roblox",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "es", "pt", "de"],
   defaultLocale: "en",
 };
