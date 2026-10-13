@@ -1,1 +1,517 @@
-{}
+{
+  "site": {
+    "name": "Final Stand Remastered Wiki",
+    "shortName": "Final Stand Remastered",
+    "tagline": "Códigos, armas, melhorias e guias",
+    "description": "O Final Stand Remastered Wiki oferece guias de armas, dicas de jogo, informações de atualização, estratégias e recursos essenciais para ajudar os jogadores de Roblox a dominar as batalhas e a progressão.",
+    "legalNotice": "Wiki de fãs não oficial. Feita por jogadores, para jogadores."
+  },
+  "nav": {
+    "home": "Início",
+    "menu": "Menu",
+    "toggleTheme": "Alternar tema",
+    "guide": "Guias",
+    "mechanics": "Mecânicas",
+    "characters": "Personagens",
+    "combat": "Combate",
+    "items": "Itens",
+    "controls": "Controles",
+    "codes": "Códigos",
+    "updates": "Atualizações"
+  },
+  "home": {
+    "meta": {
+      "title": "Final Stand Remastered Wiki - Códigos, armas e guias",
+      "description": "O Final Stand Remastered Wiki oferece guias de armas, dicas de jogo, informações de atualização, estratégias e recursos essenciais para ajudar os jogadores de Roblox a dominar as batalhas e a progressão."
+    },
+    "hero": {
+      "eyebrow": "Shooter tático de sobrevivência na Roblox",
+      "title": "Final Stand Remastered Wiki",
+      "description": "Final Stand Remastered é um jogo de sobrevivência e combate da Roblox focado em batalhas intensas, armas, melhorias e jogabilidade tática. Explore guias, informações de equipamento, estratégias e as últimas atualizações do jogo.",
+      "stats": [
+        "Armas disponíveis",
+        "Melhorias e loadouts",
+        "0 códigos ativos",
+        "Atualizações semanais"
+      ],
+      "primaryCta": "Guia para iniciantes",
+      "secondaryCta": "Guia de armas",
+      "tertiaryCta": "Jogar na Roblox",
+      "videoLabel": "Mídia oficial"
+    },
+    "updates": {
+      "title": "Últimas atualizações",
+      "browse": "Ver todos os guias",
+      "viewAll": "Ver tudo"
+    },
+    "start": {
+      "eyebrow": "Comece aqui",
+      "title": "Sua jornada em Final Stand Remastered",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guia para iniciantes",
+          "description": "Aprenda o ciclo principal — preparar, entrar em campo, sobreviver, coletar e melhorar — para que suas primeiras partidas em Final Stand Remastered terminem em vitória, e não em derrota."
+        },
+        {
+          "number": "2",
+          "title": "Todos os códigos ativos",
+          "description": "Veja onde os códigos de Final Stand Remastered aparecem primeiro, como resgatá-los dentro do jogo e por que os que estão ativos expiram tão rápido."
+        },
+        {
+          "number": "3",
+          "title": "Subir de nível mais rápido",
+          "description": "Monte uma rotina de treino com repetições de prática, partidas de economia e exercícios por função que impulsiona sua curva de progressão em Final Stand Remastered."
+        },
+        {
+          "number": "4",
+          "title": "Melhor raça e build",
+          "description": "Compare os arquétipos Saiyan, Namekian, Human e Frieza antes de se decidir, para que sua build de Final Stand Remastered escale em vez de estagnar."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Em alta agora",
+      "quickLinks": [
+        "Guia para iniciantes",
+        "Códigos ativos",
+        "Dicas de raças",
+        "Estratégias contra chefes"
+      ],
+      "cards": [
+        {
+          "badge": "Iniciantes",
+          "title": "Guia para iniciantes",
+          "description": "Tudo o que você precisa, do primeiro posicionamento até segurar a posição durante a onda final.",
+          "href": "/guide/final-stand-remastered-beginner-guide"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Códigos ativos",
+          "description": "Como encontrar códigos ativos de Final Stand Remastered, resgatá-los no jogo e identificar os falsos reciclados.",
+          "href": "/codes/final-stand-remastered-codes"
+        },
+        {
+          "badge": "Popular",
+          "title": "Qual raça você deveria escolher?",
+          "description": "Saiyan, Namekian, Human e Frieza: compare cada arquétipo e encontre seu estilo de jogo.",
+          "href": "/characters/final-stand-remastered-races"
+        },
+        {
+          "badge": "Atualizado",
+          "title": "Guia de atributos",
+          "description": "Níveis de prioridade de atributos, arquétipos de build e conselhos de redistribuição para cada estilo de jogo.",
+          "href": "/guide/final-stand-remastered-stat-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Guia de chefes",
+          "description": "Estrutura de fases, arquétipos, telegrafias e táticas solo ou em esquadrão para cada combate.",
+          "href": "/combat/final-stand-remastered-bosses"
+        },
+        {
+          "badge": "Popular",
+          "title": "Métodos de treino",
+          "description": "Rotinas de praticar, testar e aplicar que cortam horas da sua curva de progressão.",
+          "href": "/mechanics/final-stand-remastered-training-methods"
+        },
+        {
+          "badge": "Novo",
+          "title": "Formas e transformações",
+          "description": "Como desbloquear formas, como os atributos escalam e quando se transformar durante um combate.",
+          "href": "/mechanics/final-stand-remastered-forms"
+        },
+        {
+          "badge": "Novo",
+          "title": "Dragon Balls e desejos",
+          "description": "Localizações, rotas de farm e as recompensas por trás de cada desejo das Dragon Balls.",
+          "href": "/items/final-stand-remastered-dragon-balls-wishes"
+        },
+        {
+          "badge": "Novo",
+          "title": "Guia de atualizações",
+          "description": "O que cada patch muda e como preparar suas configurações antes de uma nova versão chegar.",
+          "href": "/updates/final-stand-remastered-update"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "O que é Final Stand Remastered?",
+      "paragraphs": [
+        "Final Stand Remastered é um jogo de sobrevivência e combate da Roblox em que você escolhe uma raça, monta um lutador e defende sua posição contra ondas cada vez mais difíceis de inimigos. Raças como Saiyan, Namekian, Human e Frieza definem seus atributos base, traços inatos e acesso a habilidades, enquanto formas, movimentos de ki e distribuição de atributos decidem até onde uma build escala.",
+        "Cada partida segue o mesmo ciclo: preparar um loadout, entrar na arena, sobreviver à pressão, guardar as recompensas e gastá-las em melhorias que continuam na próxima partida. Como os chefes e as ondas finais dependem de conhecimento e não só de horas de farm, ler as telegrafias, manter uma boa posição e escolher bem o momento das melhorias importam mais do que o tempo de jogo — e é exatamente isso que estes guias cobrem."
+      ],
+      "stats": [
+        {
+          "label": "Plataforma",
+          "value": "Roblox"
+        },
+        {
+          "label": "Gênero",
+          "value": "Sobrevivência e combate"
+        },
+        {
+          "label": "Modo de jogo",
+          "value": "Solo e cooperativo"
+        },
+        {
+          "label": "Sistemas principais",
+          "value": "Raças e formas"
+        },
+        {
+          "label": "Frequência de atualizações",
+          "value": "Semanal"
+        },
+        {
+          "label": "Biblioteca de guias",
+          "value": "40 guias"
+        }
+      ],
+      "cta": "Explorar todos os guias"
+    },
+    "explore": {
+      "title": "Explore o Final Stand Remastered Wiki",
+      "description": "Tudo o que você precisa para progredir em Final Stand Remastered, de códigos ativos e noções básicas para iniciantes a raças, atributos, chefes, controles e as últimas atualizações.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Códigos de Final Stand Remastered",
+          "description": "Acompanhe códigos legítimos, aprenda a resgatá-los dentro do jogo e evite os falsos reciclados que lotam páginas de listas de baixa qualidade.",
+          "href": "/codes/final-stand-remastered-codes",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Fonte",
+              "detail": "Os códigos novos surgem primeiro nos canais oficiais dos desenvolvedores e nas notas de atualização do jogo, não em sites agregadores"
+            },
+            {
+              "label": "Momento",
+              "detail": "Os lançamentos estão ligados a marcos e eventos, e a maioria expira em poucos dias, então resgate no momento em que ver um"
+            },
+            {
+              "label": "Resgate",
+              "detail": "Abra o menu de configurações, digite o código à mão e confirme a recompensa no seu inventário"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guia para iniciantes de Final Stand Remastered",
+          "description": "Um passo a passo do ciclo principal, dos fundamentos de posicionamento e das melhorias que valem a pena comprar nas primeiras partidas.",
+          "href": "/guide/final-stand-remastered-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Escolha um objetivo claro e um loadout que você consiga controlar de verdade antes de entrar em campo"
+            },
+            {
+              "label": "2",
+              "detail": "Tome cedo um ponto de estrangulamento defensável em vez de correr direto para o combate"
+            },
+            {
+              "label": "3",
+              "detail": "Gerencie espaço, munição e recargas antes que qualquer um deles chegue a zero"
+            },
+            {
+              "label": "4",
+              "detail": "Elimine os atiradores de longo alcance e os inimigos com habilidades especiais antes da tropa comum"
+            },
+            {
+              "label": "5",
+              "detail": "Gaste sua primeira moeda em sobrevivência, depois em dano e por fim em conveniência"
+            },
+            {
+              "label": "6",
+              "detail": "Revise o que te matou depois de cada partida e corrija primeiro essa única fraqueza"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guia de raças de Final Stand Remastered",
+          "description": "Compare os arquétipos de raça, seus traços inatos e as builds em que cada um escala antes de se comprometer com um personagem.",
+          "href": "/characters/final-stand-remastered-races",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tanque",
+              "detail": "Alta durabilidade e erros perdoados, a âncora de linha de frente para conteúdo em grupo"
+            },
+            {
+              "label": "Ágil",
+              "detail": "Movimento rápido e janelas de dano explosivo, um duelista de bate e volta que pune posicionamento ruim"
+            },
+            {
+              "label": "Conjurador",
+              "detail": "Escalonamento forte de habilidades e pressão à distância, com básicos mais fracos mas espaçamento letal"
+            },
+            {
+              "label": "Equilibrado",
+              "detail": "Sem fraquezas evidentes e fácil de aprender, a escolha mais amigável para jogadores novos"
+            },
+            {
+              "label": "Reroll",
+              "detail": "Mudar de raça geralmente exige um reroll ou um slot novo, então decida com um plano"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guia de atributos de Final Stand Remastered",
+          "description": "Veja quais atributos sustentam uma build, como funcionam os limites e o retorno decrescente, e onde gastar pontos em cada etapa.",
+          "href": "/guide/final-stand-remastered-stat-guide",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Dano ofensivo e vida máxima, invista cedo porque sustentam qualquer build"
+            },
+            {
+              "label": "A",
+              "detail": "Armadura, redução de dano e vigor, os atributos que salvam partidas silenciosamente"
+            },
+            {
+              "label": "B",
+              "detail": "Velocidade de recarga, movimento e chance de crítico, fortes depois que o núcleo está definido"
+            },
+            {
+              "label": "C",
+              "detail": "Utilidade e regeneração, escolhas de nicho para cooperativo e builds de partidas longas"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guia de chefes de Final Stand Remastered",
+          "description": "Aprenda como as fases dos chefes escalam, como ler as telegrafias e como preparar um loadout que sobreviva ao avanço final.",
+          "href": "/combat/final-stand-remastered-bosses",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Tanque",
+              "detail": "Preparações lentas e golpes no chão, então circule em arcos amplos e puna depois do golpe"
+            },
+            {
+              "label": "Artilharia",
+              "detail": "Brilhos de carga e rajadas, então use cobertura e feche a distância durante as recargas"
+            },
+            {
+              "label": "Invocador",
+              "detail": "Levanta lacaios em um ritmo, então limpe os adds rápido ou ignore os lentos"
+            },
+            {
+              "label": "Perigos",
+              "detail": "Dano de arena que reduz seu espaço seguro, então acompanhe a zona e planeje uma rota"
+            },
+            {
+              "label": "Duelista",
+              "detail": "Dashes e correntes de múltiplos golpes, então provoque a investida e puna a recuperação"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guia de treino de Final Stand Remastered",
+          "description": "Transforme partidas dispersas em ganhos mensuráveis com uma rotina de praticar, testar e aplicar que acelera sua progressão.",
+          "href": "/mechanics/final-stand-remastered-training-methods",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Isole uma variável por sessão para poder atribuir cada melhoria"
+            },
+            {
+              "label": "2",
+              "detail": "Aqueça com repetições no campo de prática para controle de recuo e tempo de esquiva"
+            },
+            {
+              "label": "3",
+              "detail": "Faça partidas de disciplina nas ondas iniciais para afiar seu ritmo de melhorias"
+            },
+            {
+              "label": "4",
+              "detail": "Faça partidas solo com restrições e sem curas para expor falhas de posicionamento"
+            },
+            {
+              "label": "5",
+              "detail": "Teste A/B uma mudança de loadout por vez nas mesmas ondas"
+            },
+            {
+              "label": "6",
+              "detail": "Registre a causa de cada morte e treine deliberadamente sua pior onda"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guia de controles de Final Stand Remastered",
+          "description": "Uma referência rápida para movimento, combate e câmera, além das remapeações e ajustes de sensibilidade que vale a pena mudar.",
+          "href": "/controls/final-stand-remastered-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "WASD",
+              "detail": "Mover, mantenha porque a memória muscular universal se transfere"
+            },
+            {
+              "label": "Shift",
+              "detail": "Correr, remapeie para um botão lateral do mouse se você corre constantemente"
+            },
+            {
+              "label": "Space",
+              "detail": "Pular, adicione a roda do mouse se precisar de pulos repetidos rápidos"
+            },
+            {
+              "label": "Ctrl / C",
+              "detail": "Agachar ou deslizar, mova para um botão lateral se você desliza para a cobertura"
+            },
+            {
+              "label": "R",
+              "detail": "Recarregar, espelhe em um botão lateral para nunca sair do WASD"
+            },
+            {
+              "label": "Q / E / F",
+              "detail": "Slots de habilidade, coloque habilidades frequentes sob um dedo em repouso"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Atualizações de Final Stand Remastered",
+          "description": "Entenda o que cada patch muda, como acompanhar as notas oficiais e como preparar suas configurações antes de uma nova versão chegar.",
+          "href": "/updates/final-stand-remastered-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Balanceamento",
+              "detail": "Ajustes de armas, habilidades e economia, então reteste seu kit principal antes do jogo ranqueado"
+            },
+            {
+              "label": "Correções",
+              "detail": "Colisões, registro de acertos e travamentos, então os velhos contornos deixam de funcionar"
+            },
+            {
+              "label": "Desempenho",
+              "detail": "Taxa de quadros, engasgos e tempos de carregamento, então verifique sua própria base antes e depois"
+            },
+            {
+              "label": "Conteúdo",
+              "detail": "Novos mapas, modos e trilhas de progressão, então leia o painel de notícias do jogo"
+            },
+            {
+              "label": "Qualidade de vida",
+              "detail": "Menus, opções de teclas e fluxo do lobby, então tire um print das suas configurações primeiro"
+            },
+            {
+              "label": "Segurança",
+              "detail": "Ferramentas de denúncia e mudanças de detecção, então reporte problemas pelos canais oficiais"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "description": "Respostas rápidas para as perguntas mais comuns sobre Final Stand Remastered.",
+      "items": [
+        {
+          "question": "O que é Final Stand Remastered?",
+          "answer": "Final Stand Remastered é um jogo de sobrevivência e combate da Roblox em que você escolhe uma raça, monta um lutador e defende sua posição contra ondas cada vez mais difíceis de inimigos. Raças, formas, movimentos de ki e distribuição de atributos influenciam até onde uma build escala."
+        },
+        {
+          "question": "Qual raça os iniciantes deveriam escolher em Final Stand Remastered?",
+          "answer": "Raças equilibradas e versáteis são o ponto de partida mais amigável em Final Stand Remastered. Elas perdoam erros, funcionam em quase qualquer conteúdo e deixam você aprender as mecânicas antes de se especializar em uma build de tanque, ágil ou conjurador."
+        },
+        {
+          "question": "Existem códigos ativos de Final Stand Remastered?",
+          "answer": "Os códigos de Final Stand Remastered aparecem em torno de marcos e eventos, e não em um cronograma fixo, e a maioria expira em poucos dias. Confira primeiro os canais oficiais dos desenvolvedores e as notas de atualização do jogo, e resgate rápido."
+        },
+        {
+          "question": "Como subir de nível mais rápido em Final Stand Remastered?",
+          "answer": "Treine de forma deliberada em vez de farmar às cegas. Isole uma habilidade por sessão, faça partidas de disciplina nas ondas iniciais para a economia e registre a causa de cada morte em Final Stand Remastered para não repetir o mesmo erro."
+        },
+        {
+          "question": "É possível derrotar os chefes de Final Stand Remastered sozinho?",
+          "answer": "Sim. Os chefes de Final Stand Remastered podem ser derrotados sozinho, mas exigem execução mais precisa. Leve mobilidade e autossustento, faça kiting em arcos amplos, guarde o burst para a fase final e trate cada transição como um recomeço."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Pronto para dominar Final Stand Remastered?",
+      "description": "Da sua primeira escolha de raça às lutas contra chefes do endgame, nossa wiki da comunidade cobre você com guias gratuitos e atualizados.",
+      "primary": "Leia o guia para iniciantes",
+      "secondary": "Jogar na Roblox"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guias de Final Stand Remastered",
+    "overviewDescription": "Passo a passo para iniciantes, rotas de level up e planejamento de missões e atributos em Final Stand Remastered — tudo o que você precisa para superar suas primeiras partidas e muito mais."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecânicas de Final Stand Remastered",
+    "overviewDescription": "Como funcionam transformações, formas, maestria, boosts de Zenkai e Dragon Balls em Final Stand Remastered, além dos métodos de treino que aceleram a progressão."
+  },
+  "characters": {
+    "overviewTitle": "Personagens e builds de Final Stand Remastered",
+    "overviewDescription": "Análises raça por raça de Final Stand Remastered, incluindo builds Saiyan, Namekian, Frieza, Human e Jiren com as prioridades de atributos por trás delas."
+  },
+  "combat": {
+    "overviewTitle": "Combate em Final Stand Remastered",
+    "overviewDescription": "Melhores golpes, ataques de ki, combos, táticas de PvP, raids e lutas contra chefes destrinchados para Final Stand Remastered."
+  },
+  "items": {
+    "overviewTitle": "Itens de Final Stand Remastered",
+    "overviewDescription": "Cápsulas, acessórios, equipamentos e desejos das Dragon Balls — o que vale a pena farmar e o que equipar em Final Stand Remastered."
+  },
+  "controls": {
+    "overviewTitle": "Controles de Final Stand Remastered",
+    "overviewDescription": "Referência completa de teclas para teclado, controle e Xbox em Final Stand Remastered, incluindo dicas de mira travada e movimento."
+  },
+  "codes": {
+    "overviewTitle": "Códigos de Final Stand Remastered",
+    "overviewDescription": "Todos os códigos ativos de Final Stand Remastered, como resgatá-los e o que cada recompensa oferece."
+  },
+  "updates": {
+    "overviewTitle": "Atualizações de Final Stand Remastered",
+    "overviewDescription": "Notas de patch, a atualização espacial e os links oficiais de Discord e Trello de Final Stand Remastered."
+  },
+  "shared": {
+    "wikiNavigation": "Navegação da wiki",
+    "activeCodes": "Códigos ativos",
+    "updated": "Atualizado",
+    "viewAllCodes": "Ver todos os códigos",
+    "playOnRoblox": "Jogar na Roblox",
+    "inThisSection": "Nesta seção",
+    "tableOfContents": "Índice",
+    "nextSteps": "Próximos passos",
+    "needHelp": "Precisa de ajuda?",
+    "relatedReading": "Leitura relacionada",
+    "relatedGuides": "Guias relacionados",
+    "readMore": "Ler mais",
+    "officialMedia": "Mídia oficial",
+    "home": "Início",
+    "noGuidesAvailable": "Ainda não há guias disponíveis. Volte em breve!"
+  },
+  "footer": {
+    "aboutTitle": "Final Stand Remastered Wiki",
+    "about": "O Final Stand Remastered Wiki é um hub de guias independente feito por fãs que cobre armas, melhorias, mapas, chefes e conhecimentos essenciais do jogo para jogadores novos e veteranos.",
+    "quickLinks": "Links rápidos",
+    "guides": "Guias",
+    "legal": "Legal",
+    "copyright": "2026 Final Stand Remastered Wiki. Sem afiliação com os desenvolvedores do jogo ou com a Roblox.",
+    "description": "Shooter tático de sobrevivência gratuito na Roblox. Batalhas intensas, armas, melhorias e combate em esquadrão.",
+    "playGame": "Jogar Final Stand Remastered na Roblox",
+    "officialDiscord": "Comunidade oficial da Roblox",
+    "officialYoutube": "Vídeos de gameplay",
+    "vvBuilder": "FSR Builder (planejador de builds)",
+    "beginnerGuide": "Guia para iniciantes",
+    "raceGuides": "Guias de raças",
+    "bossGuides": "Guias de chefes",
+    "buildGuide": "Guia de builds",
+    "privacyPolicy": "Política de privacidade",
+    "termsOfService": "Termos de serviço",
+    "mechanicsGuide": "Mecânicas e formas"
+  }
+}
