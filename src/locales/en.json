@@ -9,7 +9,15 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "characters": "Characters",
+    "combat": "Combat",
+    "items": "Items",
+    "controls": "Controls",
+    "codes": "Codes",
+    "updates": "Updates"
   },
   "home": {
     "meta": {
@@ -437,7 +445,38 @@
       "secondary": "Play on Roblox"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Final Stand Remastered Guides",
+    "overviewDescription": "Beginner walkthroughs, leveling routes, quest and stat planning for Final Stand Remastered — everything you need to get through your first runs and beyond."
+  },
+  "mechanics": {
+    "overviewTitle": "Final Stand Remastered Mechanics",
+    "overviewDescription": "How transformations, forms, mastery, Zenkai boosts and Dragon Balls work in Final Stand Remastered, plus the training methods that speed up progression."
+  },
+  "characters": {
+    "overviewTitle": "Final Stand Remastered Characters & Builds",
+    "overviewDescription": "Race-by-race breakdowns for Final Stand Remastered, including Saiyan, Namekian, Frieza, Human and Jiren builds with the stat priorities behind them."
+  },
+  "combat": {
+    "overviewTitle": "Final Stand Remastered Combat",
+    "overviewDescription": "Best moves, ki attacks, combos, PvP tactics, raids and boss fights broken down for Final Stand Remastered."
+  },
+  "items": {
+    "overviewTitle": "Final Stand Remastered Items",
+    "overviewDescription": "Capsules, accessories, equipment and Dragon Ball wishes — what is worth farming and what to equip in Final Stand Remastered."
+  },
+  "controls": {
+    "overviewTitle": "Final Stand Remastered Controls",
+    "overviewDescription": "Full keyboard, controller and Xbox keybind reference for Final Stand Remastered, including lock-on and movement tips."
+  },
+  "codes": {
+    "overviewTitle": "Final Stand Remastered Codes",
+    "overviewDescription": "All active Final Stand Remastered codes, how to redeem them, and what each reward gives you."
+  },
+  "updates": {
+    "overviewTitle": "Final Stand Remastered Updates",
+    "overviewDescription": "Patch notes, the space update, and the official Discord and Trello links for Final Stand Remastered."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -472,6 +511,7 @@
     "bossGuides": "Boss Guides",
     "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "mechanicsGuide": "Mechanics & Forms"
   }
 }
