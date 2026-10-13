@@ -38,27 +38,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your My Seafood Stand Journey",
+      "title": "Your Final Stand Remastered Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the core loop prepare, deploy, survive, collect, and upgrade so your first Final Stand Remastered runs end in a win instead of a wipe."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "All Working Codes",
+          "description": "See where Final Stand Remastered codes drop first, how to redeem them inside the game, and why the live ones expire so quickly."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Fastest Leveling",
+          "description": "Build a training routine of practice reps, economy runs, and role drills that pushes your Final Stand Remastered progression curve forward."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in My Seafood Stand."
+          "title": "Best Race & Build",
+          "description": "Compare the Saiyan, Namekian, Human, and Frieza archetypes before you commit, so your Final Stand Remastered build scales instead of stalling."
         }
       ]
     },
@@ -66,237 +66,339 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Active Codes",
+        "Race Tier Tips",
+        "Boss Strategies"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Everything you need from your first deploy to holding a position through the final wave.",
+          "href": "/guide/final-stand-remastered-beginner-guide"
         },
         {
           "badge": "Updated",
           "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "description": "How to find live Final Stand Remastered codes, redeem them in game, and spot recycled fakes.",
+          "href": "/codes/final-stand-remastered-codes"
         },
         {
           "badge": "Popular",
           "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "description": "Saiyan, Namekian, Human, and Frieza compare every archetype and find your playstyle.",
+          "href": "/characters/final-stand-remastered-races"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Updated",
+          "title": "Stat Guide",
+          "description": "Stat priority tiers, build archetypes, and respec advice for every playstyle.",
+          "href": "/guide/final-stand-remastered-stat-guide"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Boss Guide",
+          "description": "Phase structure, archetypes, telegraphs, and solo versus squad tactics for every fight.",
+          "href": "/combat/final-stand-remastered-bosses"
+        },
+        {
+          "badge": "Popular",
+          "title": "Training Methods",
+          "description": "Practice, test, and apply routines that trim hours off your progression curve.",
+          "href": "/mechanics/final-stand-remastered-training-methods"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Forms & Transformations",
+          "description": "How to unlock forms, how stats scale, and when to transform during a fight.",
+          "href": "/mechanics/final-stand-remastered-forms"
         },
         {
           "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Dragon Balls & Wishes",
+          "description": "Locations, farming routes, and the rewards behind every Dragon Ball wish.",
+          "href": "/items/final-stand-remastered-dragon-balls-wishes"
+        },
+        {
+          "badge": "New",
+          "title": "Update Guide",
+          "description": "What each patch changes and how to prep your settings before a new build lands.",
+          "href": "/updates/final-stand-remastered-update"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is My Seafood Stand?",
+      "title": "What is Final Stand Remastered?",
       "paragraphs": [
-        "My Seafood Stand is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Final Stand Remastered is a Roblox combat survival game where you pick a race, build a fighter, and hold your ground against escalating waves of enemies. Races such as Saiyan, Namekian, Human, and Frieza set your base stats, innate traits, and ability access, while forms, ki moves, and stat allocation decide how far a build scales.",
+        "Every session follows the same loop: prepare a loadout, deploy into the arena, survive the pressure, bank the rewards, and spend them on upgrades that carry into the next run. Because bosses and later waves are knowledge-gated rather than grind-gated, reading telegraphs, holding good ground, and timing your upgrades matter more than raw playtime and that is exactly what these guides cover."
       ],
       "stats": [
-        {
-          "label": "Developer",
-          "value": "Midnight Continent"
-        },
         {
           "label": "Platform",
           "value": "Roblox"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Combat Survival"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Play Mode",
+          "value": "Solo & Co-op"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Core Systems",
+          "value": "Races & Forms"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Update Cadence",
+          "value": "Weekly"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Guide Library",
+          "value": "40 Guides"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore My Seafood Stand Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Final Stand Remastered Wiki",
+      "description": "Everything you need to progress in Final Stand Remastered, from active codes and beginner basics to races, stats, bosses, controls, and the latest updates.",
       "modules": [
         {
           "order": 1,
-          "name": "My Seafood Stand Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/my-seafood-stand-codes",
-          "displayType": "code-box",
+          "name": "Final Stand Remastered Codes",
+          "description": "Track legitimate codes, learn how to redeem them inside the game, and avoid the recycled fakes that fill low-effort list pages.",
+          "href": "/codes/final-stand-remastered-codes",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "Source",
+              "detail": "New codes surface first on official developer channels and in-game update notes, not on aggregator sites"
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "Timing",
+              "detail": "Drops are tied to milestones and events, and most expire within days, so redeem the moment you see one"
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "Redeem",
+              "detail": "Open the settings menu, type the code by hand, then confirm the reward in your inventory"
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/my-seafood-stand-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Final Stand Remastered Beginner Guide",
+          "description": "A step-by-step walkthrough of the core loop, positioning fundamentals, and the upgrades worth buying in your first runs.",
+          "href": "/guide/final-stand-remastered-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Pick one clear goal and a loadout you can actually control before you deploy"
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Take a defensible chokepoint early instead of sprinting straight into the fight"
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Manage spacing, ammo, and cooldowns before any of them hit zero"
+            },
+            {
+              "label": "4",
+              "detail": "Kill ranged harassers and special-ability enemies before the trash mobs"
+            },
+            {
+              "label": "5",
+              "detail": "Spend your first currency on survivability, then damage, then convenience"
+            },
+            {
+              "label": "6",
+              "detail": "Review what killed you after every run and fix that single weakness first"
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/my-seafood-stand-tier-list",
-          "displayType": "tier-grid",
+          "name": "Final Stand Remastered Races Guide",
+          "description": "Compare the race archetypes, their innate traits, and the builds each one scales into before you commit to a character.",
+          "href": "/characters/final-stand-remastered-races",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Bruiser",
+              "detail": "High durability and forgiving mistakes, the frontline anchor for group content"
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Agile",
+              "detail": "Fast movement and burst windows, a hit-and-run duelist that punishes sloppy positioning"
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Caster",
+              "detail": "Strong skill scaling and ranged pressure, with weaker basics but deadly spacing"
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Balanced",
+              "detail": "No glaring weaknesses and easy to learn, the friendliest pick for new players"
+            },
+            {
+              "label": "Reroll",
+              "detail": "Changing race usually needs a reroll or a new slot, so decide with a plan"
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/my-seafood-stand-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Final Stand Remastered Stats Guide",
+          "description": "See which stats carry a build, how breakpoints and diminishing returns work, and where to spend points at every stage.",
+          "href": "/guide/final-stand-remastered-stat-guide",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Offensive damage and max health, commit early because they carry every build"
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Armor, damage reduction, and stamina, the stats that quietly save runs"
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Reload speed, movement, and critical chance, strong once the core is set"
+            },
+            {
+              "label": "C",
+              "detail": "Utility and regeneration, niche picks for co-op and long-run builds"
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/my-seafood-stand-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Final Stand Remastered Boss Guide",
+          "description": "Learn how boss phases escalate, how to read telegraphs, and how to prep a loadout that survives the final push.",
+          "href": "/combat/final-stand-remastered-bosses",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Bruiser",
+              "detail": "Slow wind-ups and ground slams, so circle wide and punish after the slam"
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Artillery",
+              "detail": "Charge glows and volleys, so use cover and close the gap during reloads"
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Summoner",
+              "detail": "Raises minions on a rhythm, so clear adds fast or ignore the slow ones"
+            },
+            {
+              "label": "Hazards",
+              "detail": "Arena damage that shrinks your safe space, so track the zone and plan a path"
+            },
+            {
+              "label": "Duelist",
+              "detail": "Dashes and multi-hit chains, so bait the lunge and punish the recovery"
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/my-seafood-stand-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Final Stand Remastered Training Guide",
+          "description": "Turn scattered matches into measurable gains with a practice, test, and apply routine that speeds up your progression.",
+          "href": "/mechanics/final-stand-remastered-training-methods",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "1",
+              "detail": "Isolate one variable per session so you can attribute every improvement"
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "2",
+              "detail": "Warm up with practice-range reps for recoil control and dodge timing"
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "3",
+              "detail": "Run early-wave discipline runs to sharpen your upgrade tempo"
+            },
+            {
+              "label": "4",
+              "detail": "Take constrained solo runs with no heals to expose positioning flaws"
+            },
+            {
+              "label": "5",
+              "detail": "A/B test one loadout change at a time across the same waves"
+            },
+            {
+              "label": "6",
+              "detail": "Log the cause of every death and train your worst wave deliberately"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Final Stand Remastered Controls Guide",
+          "description": "A quick reference for movement, combat, and camera inputs, plus the rebinds and sensitivity settings worth changing.",
+          "href": "/controls/final-stand-remastered-controls",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "WASD",
+              "detail": "Move, keep it because the universal muscle memory carries over"
+            },
+            {
+              "label": "Shift",
+              "detail": "Sprint, rebind to a mouse side button if you sprint constantly"
+            },
+            {
+              "label": "Space",
+              "detail": "Jump, add mouse wheel if you need fast repeat jumps"
+            },
+            {
+              "label": "Ctrl / C",
+              "detail": "Crouch or slide, move it to a side button if you slide into cover"
+            },
+            {
+              "label": "R",
+              "detail": "Reload, mirror it to a side button so you never leave WASD"
+            },
+            {
+              "label": "Q / E / F",
+              "detail": "Ability slots, bind high-frequency skills under a resting finger"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Final Stand Remastered Updates",
+          "description": "Understand what each patch changes, how to track the official notes, and how to prepare your settings before a new build lands.",
+          "href": "/updates/final-stand-remastered-update",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Balance",
+              "detail": "Weapon, ability, and economy tuning, so re-test your main kit before ranked play"
+            },
+            {
+              "label": "Bug Fixes",
+              "detail": "Collision, hit registration, and soft locks, so old workarounds stop working"
+            },
+            {
+              "label": "Perf",
+              "detail": "Framerate, stutter, and load times, so check your own baseline before and after"
+            },
+            {
+              "label": "Content",
+              "detail": "New maps, modes, and progression tracks, so read the in-game news panel"
+            },
+            {
+              "label": "QoL",
+              "detail": "Menus, keybind options, and lobby flow, so screenshot your settings first"
+            },
+            {
+              "label": "Security",
+              "detail": "Reporting tools and detection changes, so report issues through official channels"
             }
           ]
         }
@@ -304,27 +406,27 @@
     },
     "faq": {
       "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about My Seafood Stand.",
+      "description": "Quick answers to the most common questions about Final Stand Remastered.",
       "items": [
         {
-          "question": "What is My Seafood Stand?",
-          "answer": "My Seafood Stand is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Final Stand Remastered?",
+          "answer": "Final Stand Remastered is a Roblox combat survival game where you choose a race, build a fighter, and hold your ground against escalating waves of enemies. Races, forms, ki moves, and stat allocation all feed into how far a build scales."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Which race should beginners pick in Final Stand Remastered?",
+          "answer": "Balanced, all-rounder style races are the friendliest starting point in Final Stand Remastered. They forgive mistakes, work in almost any content, and let you learn the mechanics before you specialize into a bruiser, agile, or caster build."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Are there any active Final Stand Remastered codes?",
+          "answer": "Final Stand Remastered codes drop around milestones and events rather than on a fixed schedule, and most expire within days. Check the official developer channels and the in-game update notes first, then redeem quickly."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "How do you level up faster in Final Stand Remastered?",
+          "answer": "Train deliberately instead of grinding blindly. Isolate one skill per session, run early-wave discipline runs for economy, and log the cause of every death in Final Stand Remastered so the same mistake does not repeat."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Can you beat Final Stand Remastered bosses solo?",
+          "answer": "Yes. Final Stand Remastered bosses are soloable, but they demand tighter execution. Bring mobility and self-sustain, kite in wide arcs, save your burst for the late phase, and treat every transition as a reset."
         }
       ]
     },
