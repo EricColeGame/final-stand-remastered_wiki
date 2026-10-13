@@ -1,9 +1,9 @@
 {
   "site": {
-    "name": "My Seafood Stand Wiki",
-    "shortName": "My Seafood Stand",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to My Seafood Stand on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
+    "name": "Final Stand Remastered Wiki",
+    "shortName": "Final Stand Remastered",
+    "tagline": "Codes, Races, Builds & Guides",
+    "description": "Your ultimate Final Stand Remastered guide on Roblox! Explore active codes, race and build guides, boss strategies, and fast progression tips.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -26,22 +26,22 @@
   },
   "home": {
     "meta": {
-      "title": "My Seafood Stand Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete My Seafood Stand guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Final Stand Remastered Wiki - Codes, Races & Guides",
+      "description": "Final Stand Remastered Wiki provides race guides, build tips, transformation details, update information, and strategies to help Roblox players progress faster."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "My Seafood Stand",
-      "description": "Master your restaurant in My Seafood Stand on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Roblox Dragon Ball RPG",
+      "title": "Final Stand Remastered Wiki",
+      "description": "Final Stand Remastered is a Roblox Dragon Ball RPG built around races, transformations, ki moves, and intense PvP battles. Explore guides, builds, boss strategies, and the latest game updates.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "Roblox",
+        "Races & Builds",
+        "0 Active Codes",
+        "Weekly Updates"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
+      "secondaryCta": "Races & Builds Guide",
+      "tertiaryCta": "Play on Roblox",
       "videoLabel": "Official media"
     },
     "updates": {
@@ -342,8 +342,8 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master My Seafood Stand?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Master Final Stand Remastered?",
+      "description": "From your first race choice to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
       "primary": "Read the Beginner Guide",
       "secondary": "Play on Roblox"
     }
@@ -379,17 +379,17 @@
     "noGuidesAvailable": "No guides available yet. Check back soon!"
   },
   "footer": {
-    "aboutTitle": "My Seafood Stand Wiki",
-    "about": "My Seafood Stand Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "aboutTitle": "Final Stand Remastered Wiki",
+    "about": "Final Stand Remastered Wiki is an independent fan-built guide hub covering races, builds, bosses, transformations, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 My Seafood Stand Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play My Seafood Stand",
-    "officialDiscord": "Official Discord",
-    "officialYoutube": "Official YouTube",
-    "vvBuilder": "VV Builder (Skill Planner)",
+    "copyright": "2026 Final Stand Remastered Wiki. Not affiliated with the game's developers or Roblox.",
+    "description": "Free Dragon Ball RPG on Roblox. Multiple races, transformations, ki moves, and a level 305 cap.",
+    "playGame": "Play Final Stand Remastered on Roblox",
+    "officialDiscord": "Official Roblox Community",
+    "officialYoutube": "Gameplay Videos",
+    "vvBuilder": "FSR Builder (Build Planner)",
     "beginnerGuide": "Beginner Guide",
     "raceGuides": "Race Guides",
     "bossGuides": "Boss Guides",
