@@ -1,121 +1,88 @@
 export const metadata = {
-  title: "Guía de estadísticas de Final Stand Remastered: mejores builds, prioridad de stats y consejos de subida de nivel",
-  description: "Una guía completa de estadísticas de Final Stand Remastered que abarca la prioridad de stats, arquetipos de build, consejos de reasignación y trucos de subida de nivel para cada estilo de juego.",
+  title: "Final Stand Remastered: Una guía práctica para el RPG de Roblox",
+  description: "Lo que Final Stand Remastered documenta oficialmente —expansión Namek, límite de nivel 305, límite de transferencia 125— además de consejos de la comunidad y qué verificar en el juego.",
   category: "guide",
   date: "2026-10-14",
-}
+};
 
-## Por qué la asignación de stats decide tu partida
+Final Stand Remastered es una experiencia de Roblox que hace algo relativamente inusual en la plataforma: reconstruye desde cero un RPG de Roblox antiguo y bien conocido en lugar de simplemente parchearlo. Según su página oficial de Roblox, es un remaster de Dragon Ball Z Final Stand, y está desarrollado por el grupo Final Stand Remastered. Esa página —la fuente autorizada de lo que el juego realmente anuncia— es donde cualquier jugador serio debería empezar, en https://www.roblox.com/games/7922773201/Final-Stand-Remastered.
 
-Sobrevivir a las oleadas finales en Final Stand Remastered no depende solo de tus reflejos: depende de los números que hay detrás de tu personaje. Un jugador que reparte puntos de forma uniforme suele chocar contra un muro a mitad de partida, mientras que quien apuesta por una build enfocada sigue escalando. Por eso precisamente importa una **guía de estadísticas de Final Stand Remastered**: la diferencia entre una build que sobrevive y otra que se estanca suele reducirse a un puñado de decisiones de asignación tempranas.
+El problema con el que se topan la mayoría de los jugadores no es la falta de información; es un exceso de información no verificada. Las wikis de terceros, los videos de YouTube y los hilos de rumores en Discord mezclan detalles confirmados por los desarrolladores con conjeturas de la comunidad, y rara vez se etiquetan unos y otras. Esta guía los separa deliberadamente.
 
-Esta **guía de estadísticas de Final Stand Remastered** se centra en prioridades y toma de decisiones más que en cifras exactas, ya que los valores de los stats se ajustan en los parches y cualquier número concreto queda obsoleto rápido. Toma los niveles y las plantillas de build de abajo como un marco de referencia, y luego verifica los valores actuales dentro del juego antes de comprometer los puntos de una partida completa.
+## Lo que la página oficial confirma realmente
 
-Tres principios importan más que cualquier stat individual:
+El registro oficial recuperado el 14 de octubre de 2026 ofrece un conjunto compacto de hechos. El lugar se creó el 6 de noviembre de 2021 y se actualizó por última vez el 12 de octubre de 2026, lo suficientemente reciente como para que el juego claramente siga recibiendo mantenimiento. Los servidores admiten hasta 50 jugadores, y la experiencia ha acumulado aproximadamente 19,7 millones de visitas.
 
-- **Comprométete pronto.** La mayoría de las builds solo se sienten fuertes cuando un stat principal supera su punto de inflexión relevante.
-- **Planifica una reasignación.** Si tu versión ofrece un reinicio (a menudo con un coste o tiempo de reutilización), trata los puntos tempranos como una prueba en lugar de una condena de por vida.
-- **Ajusta los stats a tu equipo.** Un stat que potencia un tipo de daño o una clase de arma que en realidad no usas es un hueco muerto.
+Más útil para fines de planificación, la descripción oficial indica tres números concretos y un detalle estructural:
 
-## Las categorías principales de stats explicadas
+| Detalle oficial | Valor indicado |
+|---|---|
+| Expansión actual | Namek |
+| Límite de nivel | 305 |
+| Límite de transferencia | 125 |
+| Tamaño del servidor | Hasta 50 jugadores |
+| Creado | 6 de noviembre de 2021 |
+| Última actualización | 12 de octubre de 2026 |
 
-La mayoría de las builds de Final Stand Remastered se nutren del mismo puñado de categorías: daño bruto, supervivencia, movilidad y utilidad. Saber qué controla realmente cada una es la base de cualquier buena build.
+La descripción también acredita al equipo de desarrollo por rol —diseñador principal, programadores, diseñadores, modeladores, artistas y un animador—. Esa lista de créditos importa más de lo que parece: te indica que se trata de un proyecto organizado y con roles separados, en lugar de una creación amateur en solitario, lo cual es coherente con un remaster que se ha actualizado durante años.
 
-| Categoría de stat | Qué impulsa | Se combina mejor con | Nivel de prioridad |
-|---|---|---|---|
-| Daño ofensivo | Salida de daño por golpe y por segundo | Armas de alta cadencia o de ráfaga | S |
-| Salud / HP máximo | Cuántos errores puedes sobrevivir | Builds cuerpo a cuerpo y de tanque | S |
-| Armadura / reducción de daño | Durabilidad efectiva contra fuego sostenido | Builds de primera línea y en solitario | A |
-| Resistencia / aguante | Esprintar, esquivar y acciones pesadas | Builds de movilidad y cuerpo a cuerpo | A |
-| Velocidad de recarga / manejo | Tiempo entre disparos y cambios de arma | Armas automáticas | B |
-| Velocidad de movimiento | Posicionamiento, kiting y juego de objetivos | Builds en solitario y de apoyo | B |
-| Crítico / precisión | Picos de daño en puntos débiles | Builds de tirador y de ráfaga | B |
-| Utilidad / regeneración | Sostenibilidad, enfriamientos y efectos de apoyo | Builds cooperativas y de partidas largas | C |
+Lo que la página oficial *no* documenta es igual de importante. No dice nada sobre un sistema de códigos promocionales, precios de objetos, árboles de habilidades, tasas de drop, multiplicadores de estadísticas ni pasos de misiones. Si ves alguno de estos presentado como un hecho, trátalo como no verificado a menos que la fuente sea un canal de desarrolladores.
 
-### Stats de ofensiva: dónde deberían ir la mayoría de los puntos
+## Entender la estructura de expansiones
 
-Los stats de daño escalan tu velocidad de limpieza, y la velocidad de limpieza es supervivencia disfrazada: cada enemigo eliminado más rápido es un enemigo que no te dispara. En la práctica, la experiencia de los jugadores sugiere que llevar un stat ofensivo hasta su tope suave supera a repartir puntos entre dos fuentes de daño.
+La palabra "expansión" hace un trabajo real en esa descripción. Final Stand Remastered está construido como una progresión a través de niveles de contenido, y la página oficial identifica Namek como el actual. Ese enfoque te dice dos cosas: el juego tiene un punto final definido para su contenido presente, y los desarrolladores tienen la intención de ampliarlo.
 
-La excepción es cuando un arma tiene un requisito estricto en otro stat. Si tu arma preferida solo rinde con una inversión en manejo o recarga, esa inversión forma parte efectivamente de tu presupuesto de daño.
+Un RPG inspirado en el anime con razas, subida de nivel y una estructura de expansiones significa que la elección de raza de tu personaje y tu progreso de nivel son las dos decisiones a largo plazo que dan forma a todo lo demás. Las guías de la comunidad generalmente tratan la selección de raza como la decisión temprana más trascendental porque es la más difícil de revertir. Eso es un enfoque de la comunidad, no una declaración oficial: la página oficial no publica comparaciones raza por raza, y cualquier número que veas sobre ellas proviene de pruebas de jugadores en lugar de documentación de los desarrolladores.
 
-### Defensa y movilidad: los stats que salvan partidas
+El límite de nivel de 305 es tu techo objetivo práctico. El límite de transferencia de 125 es una restricción aparte, y es el número que los jugadores suelen malinterpretar con más frecuencia. No asumas que se corresponde limpiamente con un umbral de nivel sin comprobarlo en el juego, porque la página oficial no explica su mecánica.
 
-Los jugadores nuevos subestiman la movilidad. El movimiento y la resistencia no aparecen en un medidor de daño, pero son lo que te permite reposicionarte cuando una oleada se te echa encima. Una build con daño fuerte y cero movilidad suele morir ante el primer cerco real.
+## Subir de nivel hacia el límite de nivel
 
-La salud y la armadura son más simples: se convierten en tiempo de reacción. Si estás aprendiendo los patrones enemigos, uno o dos niveles defensivos te compran los errores que necesitas para aprenderlos.
+Como no existe una tabla oficial de subida de nivel, el consejo honesto es procedimental en lugar de numérico:
 
-## Mejores arquetipos de build según el estilo de juego
+- Consulta la página oficial después de cada actualización importante. El límite ya ha cambiado antes y puede volver a cambiar; una guía anclada a un límite antiguo te hace perder el tiempo.
+- Juega el contenido de expansión que sea realmente el actual. Namek se anuncia como la expansión activa, así que el contenido fuera de ella probablemente sea heredado o transitorio.
+- Usa fuentes de la comunidad para las rutas, no para los números. Una guía de terceros puede indicarte un orden sensato para intentar el contenido; no puede decirte de forma autorizada una tasa de drop.
+- Verifica en el juego cualquier cosa sospechosa antes de construir un plan en torno a ella.
 
-No hay una única build correcta en Final Stand Remastered: hay builds que encajan con cómo juegas realmente. La siguiente tabla relaciona los arquetipos comunes con sus prioridades de stats.
+Ese último punto merece énfasis. Las experiencias de Roblox se actualizan del lado del servidor, y la documentación de la comunidad va días o semanas por detrás de las actualizaciones. Cuando una guía y el juego en vivo no coinciden, el juego en vivo es el correcto.
 
-| Estilo de juego | Stats principales | Secundarios | Normalmente se omiten | Rol en el equipo |
-|---|---|---|---|---|
-| Tanque de primera línea | Salud, armadura | Resistencia | Crítico | Aguanta puntos de estrangulamiento, reanima aliados |
-| Escaramuzador móvil | Movimiento, resistencia | Daño | Armadura | Flanquea, hace kiting, captura objetivos |
-| Repartidor de daño en ráfaga | Daño, crítico | Manejo | Armadura | Elimina élites y objetivos prioritarios |
-| Brutote sostenible | Daño, salud | Regeneración | Crítico | Todoterreno ideal para jugar en solitario |
-| Apoyo / utilidad | Utilidad, salud | Movimiento | Crítico | Mejoras, curación, control de masas |
+## Observaciones de la comunidad frente a hechos documentados
 
-Si no sabes por dónde empezar, el brutote sostenible es el arquetipo más indulgente. No lidera ninguna categoría concreta, pero rara vez se desmorona a mitad de partida, lo que lo hace ideal para aprender los tiempos de las oleadas.
+Un hábito útil es clasificar cada afirmación que encuentres en uno de tres grupos:
 
-## Prioridades de stats al principio, a mitad y al final de la partida
+**Documentado.** La expansión Namek, el límite de nivel 305, el límite de transferencia 125, los servidores de 50 jugadores y los créditos de desarrollo provienen directamente del registro oficial de Roblox. Puedes citarlos con confianza.
 
-Tus prioridades de gasto deberían cambiar a medida que avanza la partida. Los puntos tempranos se acumulan; los tardíos tapan debilidades.
+**Observado por la comunidad.** Las recomendaciones de build, las listas de niveles de razas, las rutas de farmeo y las estrategias contra jefes circulan ampliamente. Son observaciones secundarias de jugadores, no documentación de los desarrolladores. A menudo son genuinamente útiles y obsoletas al mismo tiempo.
 
-| Fase | Enfoque principal | Enfoque secundario | Por qué importa |
-|---|---|---|---|
-| Inicio | Un stat ofensivo | Salud | Establece velocidad de limpieza y un colchón contra muertes |
-| Mitad | Alcanzar el punto de inflexión del stat principal | Movilidad o armadura | Desbloquea el verdadero pico de potencia de la build |
-| Final | Completar la supervivencia | Utilidad o manejo | Evita que te maten de un golpe en oleadas tardías |
-| Endgame / prestigio | Optimizar en torno a tu mejor arma | Cubrir los huecos restantes | Las ganancias pequeñas importan más aquí |
+**No documentado.** Los códigos promocionales, los precios de objetos, los diseños de árboles de habilidades, las tasas de drop, los valores exactos de estadísticas y las notas del parche no están en la página oficial. Esto no significa automáticamente que no existan, solo que no están confirmados por los desarrolladores en el registro que podemos verificar. Si quieres saberlo, pruébalo en el juego o mira los canales oficiales de los desarrolladores.
 
-Una regla práctica útil según los informes de la comunidad: si una oleada te mata porque no matas lo bastante rápido, añade ofensiva. Si te mata porque te rodean, añade movilidad. Diagnostica antes de gastar.
+## Por qué importa el enfoque de remaster
 
-## Reasignaciones, puntos de inflexión y rendimientos decrecientes
+Si jugaste al Dragon Ball Z Final Stand original, el remaster no es simplemente el mismo juego con mejores gráficos. La decisión de la descripción oficial de nombrar explícitamente el juego de origen señala una continuidad de ambientación e identidad, mientras que la experiencia subyacente se reconstruye en un lugar separado. Para los jugadores nuevos, eso significa que puedes leer sobre el original para tener contexto general —el material de origen del anime nombra razas y formas que aparecen aquí—, pero no debes asumir que los valores de progresión antiguos se trasladaron.
 
-Dos mecánicas moldean casi todas las decisiones de asignación en un juego de supervivencia basado en stats: los puntos de inflexión y los rendimientos decrecientes.
+Dragon Ball Z es el material de origen que los propios desarrolladores nombran. Los términos, las razas y las formas extraídos de él son justos de discutir. Los valores de estadísticas inventados y los niveles de desbloqueo no lo son, y la página oficial no proporciona ninguno.
 
-**Los puntos de inflexión** son umbrales donde un stat entrega de repente una recompensa desproporcionada: un nivel de daño que te permite matar de un golpe a un enemigo común, o un valor de resistencia que permite una esquiva extra. Alcanzar un punto de inflexión vale más que varios puntos repartidos entre dos stats.
+## Lista de comprobación práctica para empezar
 
-**Los rendimientos decrecientes** significan que cada punto adicional en un stat da un poco menos de valor que el anterior. Pasada cierta inversión, los mismos puntos en un stat nuevo suelen rendir más que otro punto en uno ya al máximo.
+Antes de invertir horas, haz estas cuatro cosas en orden. Abre la página oficial en https://www.roblox.com/games/7922773201/Final-Stand-Remastered y confirma tú mismo la expansión actual, el límite de nivel y el límite de transferencia, ya que esos valores son de los propios desarrolladores y pueden cambiar entre actualizaciones. Luego únete a un servidor y comprueba en la interfaz del juego los mismos números: la interfaz es la forma más rápida de confirmar que una guía que estás leyendo está actualizada. Elige una raza solo después de leer lo que el propio juego te dice sobre ella. Y cuando sigas una ruta de la comunidad, anota la fecha en que se publicó; cualquier cosa anterior a la actualización más reciente merece escepticismo.
 
-| Síntoma | Causa probable | Solución |
-|---|---|---|
-| El daño se siente plano pese a una gran inversión | Pasaste el tope suave en un stat | Mueve puntos a un stat secundario |
-| Te quedas sin resistencia constantemente | Inversión excesiva en daño | Añade resistencia o movimiento |
-| Mueres por daño residual | Armadura o salud bajas | Cambia un nivel ofensivo por defensa |
-| Te cuesta terminar con las élites | Ráfaga o crítico bajos | Añade crítico o manejo |
+## FAQ
 
-Las notas de parche y los hotfix pueden cambiar estos umbrales, así que antes de una reconstrucción importante vale la pena consultar la ficha oficial del juego a través de [la tienda oficial de Steam](https://store.steampowered.com/) para ver los detalles de la actualización actual.
+**¿Final Stand Remastered es lo mismo que Dragon Ball Z Final Stand?**
+No. La página oficial lo describe como un remaster de ese juego, desarrollado por el grupo Final Stand Remastered como una experiencia separada.
 
-## Cinco errores de stats que hunden buenas builds
+**¿Cuál es el límite de nivel actual?**
+La página oficial indica 305, según el registro recuperado el 14 de octubre de 2026.
 
-Incluso los jugadores experimentados caen en las mismas trampas. Esto es lo que hay que evitar.
+**¿Cuál es el límite de transferencia?**
+La página oficial indica 125. No explica la mecánica, así que confirma cómo funciona en el juego.
 
-1. **Repartir puntos de forma uniforme.** Los personajes equilibrados se sienten seguros al principio y débiles al final. Especialízate y luego parchea.
-2. **Invertir en tipos de daño que no usas.** Si tu arma no se beneficia, el stat es puramente estético.
-3. **Ignorar la movilidad por completo.** Los stats de posicionamiento evitan más muertes que la salud bruta en la mayoría de las partidas.
-4. **Perseguir el meta a ciegas.** Una build de un parche antiguo puede que ya no alcance los mismos puntos de inflexión.
-5. **No reasignar nunca.** Si tu build no funciona a mitad de partida, arreglarla supera a sufrirla hasta el final.
+**¿Hay códigos promocionales?**
+La página oficial no documenta ninguno. No asumas que existen códigos sin una confirmación de un canal de desarrolladores.
 
-Más allá del lado mecánico, los informes de la comunidad sugieren que las mayores ganancias para la mayoría de los jugadores provienen de un único hábito: anotar qué te mató. Los patrones emergen rápido, y esos patrones te dicen exactamente qué stat subir a continuación.
+**¿Cuántos jugadores caben en un servidor?**
+Hasta 50, según el listado oficial.
 
-## Preguntas frecuentes
-
-**¿Sigue siendo precisa esta guía de estadísticas de Final Stand Remastered después de los parches?**
-Los arquetipos de build y los niveles de prioridad tienden a mantenerse bien porque se basan en el rol más que en números exactos. Los puntos de inflexión y los topes suaves concretos cambian con las actualizaciones, así que verifica los valores actuales dentro del juego o en las notas del último parche antes de una reconstrucción completa.
-
-**¿Cuál es el mejor stat para subir primero?**
-Para la mayoría de los jugadores, un stat ofensivo más un pequeño colchón de salud es la apertura más segura. Te da suficiente velocidad de limpieza para progresar y suficiente durabilidad para sobrevivir a los errores tempranos mientras aprendes el comportamiento enemigo.
-
-**¿Debería reasignar mi personaje alguna vez?**
-Sí, sobre todo si has alcanzado el tope suave de tu stat principal o si tu arma actual exige stats de apoyo diferentes. Una reasignación suele ser más barata que sufrir una partida con una build que ya no encaja.
-
-**¿Importan más los stats que el equipo?**
-Funcionan juntos. Los stats establecen tu techo y el equipo determina con qué rapidez lo alcanzas. Un arma excelente con stats mal ajustados rinde por debajo de su potencial, y unos stats perfectos con un arma inicial siguen dejando daño sobre la mesa.
-
-## Reflexiones finales
-
-Las mejores builds en Final Stand Remastered no son las copiadas de una tier list: son las que encajan con tus reflejos, tu arma y tu rol en el equipo. Elige un arquetipo, comprométete con un stat principal hasta que alcance su punto de inflexión, y luego usa los puntos restantes para cubrir la debilidad que realmente te está matando.
-
-Ten a mano esta guía de estadísticas de Final Stand Remastered como referencia, pero trata tu propio registro de muertes como la verdadera autoridad. Los stats son solo números hasta que se vinculan a un estilo de juego, y los jugadores que entienden eso son los que siguen en pie cuando termina la oleada final.
+**¿Cómo sé si una guía está desactualizada?**
+Compara sus números con la página oficial y la interfaz del juego. La última actualización del juego fue el 12 de octubre de 2026, así que cualquier cosa publicada mucho antes de esa fecha merece una nueva revisión.

@@ -1,129 +1,91 @@
 export const metadata = {
-  title: "Combos de Final Stand Remastered: Um Guia Completo de Correntes de Combate para Todo Estilo de Jogo",
-  description: "Domine os combos de Final Stand Remastered com tabelas de timing, janelas de cancel, correntes para iniciantes e treinos que transformam golpes isolados em rotas de dano completas.",
+  title: "Final Stand Remastered: Um Guia Prático para o RPG de Roblox",
+  description: "O que a página oficial do Roblox confirma sobre Final Stand Remastered, além de como abordar sua expansão Namek, limite de nível e progressão.",
   category: "combat",
   date: "2026-10-14",
-}
+};
 
-## Por Que os Combos de Final Stand Remastered Decidem as Lutas
+Final Stand Remastered é um RPG de Roblox com uma longa memória. É um remaster de Dragon Ball Z Final Stand, uma experiência que construiu uma base de fãs anos antes desta versão aparecer, e carrega essa história para uma base de código mais nova e uma estrutura de expansão mais ampla. Se você está decidindo se vale a pena investir tempo nele, a pergunta útil não é "é bom", mas "o que ele realmente exige de mim". A página oficial responde mais sobre isso do que a maioria dos jogadores percebe.
 
-Dois jogadores podem acertar a mesma quantidade de golpes e ainda assim terminar com barras de vida completamente diferentes. A diferença está no roteamento — a ordem, o timing e o espaçamento desses golpes. Aprender os combos de Final Stand Remastered é a forma mais rápida de converter uma abertura de sorte em uma punição que encerra o round, porque um iniciador confirmado mais uma continuação limpa faz muito mais trabalho do que cinco golpes soltos.
+Você pode encontrar a experiência aqui: [Final Stand Remastered no Roblox](https://www.roblox.com/games/7922773201/Final-Stand-Remastered). Tudo abaixo separa o que aquela página e o grupo de desenvolvedores afirmam do que a comunidade relata, porque esses não são o mesmo tipo de informação.
 
-Se você vence consistentemente o jogo neutro e ainda assim perde partidas, seu problema geralmente não é a defesa. É a conversão. Os combos de Final Stand Remastered transformam pequenas vantagens em vantagens permanentes: um pesado bloqueado, um dash que errou o alvo ou um agarrão mal cronometrado viram janelas de punição assim que você conhece a rota. Este guia cobre a estrutura dos combos, correntes amigáveis para iniciantes, janelas de cancel avançadas e uma rotina de treino que você consegue executar em uma sessão curta.
+## O que a página oficial realmente confirma
 
-| Cenário | Golpes Acertados | Resultado Típico | Por Que Isso Importa |
-|---|---|---|---|
-| Golpes isolados trocados | 4 | Ambos os jogadores com vida média, o neutro se reinicia | Nenhuma vantagem líquida conquistada |
-| Iniciador sem continuação | 2 | Pequena vantagem de vida, oponente se recupera | Abertura desperdiçada |
-| Iniciador em rota completa | 1 iniciador + 3 continuações | O round muitas vezes acaba de imediato | A punição se converte em abate |
-| Iniciador em rota com um cancel | 1 iniciador + 5 continuações | O round termina com recursos sobrando | Você mantém medidor para o próximo round |
+O registro do Roblox é incomumente específico sobre o formato atual do jogo, e vale a pena lê-lo como uma declaração de design em vez de texto de marketing.
 
-A conclusão dessa tabela é simples: o dano por golpe importa muito menos do que o dano por abertura. Jogadores que treinam rotas terminam rounds mais rápido do que os que só praticam ofensiva bruta, com base em relatos comuns da comunidade a partir de comparações no modo treino.
+| Detalhe | Valor oficial |
+|---|---|
+| Criador | Grupo "Final Stand Remastered" |
+| Local criado | 6 de novembro de 2021 |
+| Última atualização | 12 de outubro de 2026 |
+| Tamanho do servidor | Até 50 jogadores |
+| Visitas | Cerca de 19,7 milhões |
+| Expansão atual | Namek |
+| Limite de nível | 305 |
+| Limite de transferência | 125 |
 
-## A Anatomia de Todo Combo em Final Stand Remastered
+Três desses números importam mais que o resto. O limite de nível de 305 indica o teto pretendido para progressão no momento. O limite de transferência de 125 é o teto que se aplica ao mover um personagem entre contextos de salvamento, e é deliberadamente menor que o limite de nível, o que significa que um personagem transferido não é o mesmo que um totalmente evoluído. A expansão Namek é o quadro de conteúdo atual, o que situa o arco presente do jogo na saga de Namek do material de origem, e não em uma anterior ou posterior.
 
-Tire o brilho e toda rota é construída a partir das mesmas quatro partes. Entendê-las torna muito mais fácil corrigir um combo que vive quebrando.
+A página também credita a equipe de desenvolvimento por função: um designer líder, programadores, designers, modeladores, artistas e um animador. Essa é uma estrutura de produção real, não um projeto solo, e é um sinal razoável sobre a frequência com que a experiência é atualizada. A data da última atualização sustenta essa leitura.
 
-- **Iniciador** — o golpe que confirma que você realmente acertou. Bons iniciadores são rápidos, seguros no bloqueio e alcançam na distância em que você costuma lutar.
-- **Elo** — o tecido conectivo. É aqui que o input buffering importa, porque você está enfileirando o próximo movimento antes que a animação anterior termine.
-- **Extensor** — a parte que adiciona dano ou move o oponente para algum lugar útil, geralmente em direção a uma parede ou canto.
-- **Finalizador** — o golpe de encerramento que se converte em queda, um reset seguro ou ganho de medidor.
+O que a página não afirma é igualmente importante. Não há documentação de um sistema de códigos promocionais, nem preços de itens, nem árvores de habilidades, nem taxas de drop. Se você vê essas coisas afirmadas com confiança em outro lugar, elas vêm de fontes da comunidade, não dos desenvolvedores.
 
-| Componente | Propósito | O Que Testar no Treino |
-|---|---|---|
-| Iniciador | Confirma o acerto | Ele conecta na sua distância normal de luta? |
-| Elo | Mantém o oponente atordoado tempo suficiente | O input está bufferizado antes do fim da recuperação? |
-| Extensor | Adiciona dano ou reposiciona | Funciona em todas as distâncias ou só colado? |
-| Finalizador | Converte em queda ou pressão | Você consegue um mix-up ou apenas um reset seguro? |
+## Lendo os limites de nível e transferência corretamente
 
-Como ajustes de balanceamento podem alterar valores de startup e recuperação, vale a pena conferir as notas de patch oficiais antes de assumir que uma rota ainda funciona. A página da loja é um ponto de partida razoável — você pode buscar Final Stand Remastered no Steam para ver o histórico de atualizações e as notas de controle. Fora isso, trate qualquer frame data específico que você ler por aí como informação da comunidade, não como verdade absoluta, já que ela muda a cada patch.
+Um limite de nível de 305 combinado com um limite de transferência de 125 cria um tipo específico de progressão. A diferença entre os dois números é onde vive a maior parte do investimento de tempo de longo prazo do jogo. Se seu personagem está acima do limite de transferência, você deve esperar que transferir não seja uma movimentação equivalente, e deve verificar as regras atuais no jogo antes de se comprometer com algo irreversível.
 
-## Combos de Final Stand Remastered para Iniciantes que Vale a Pena Treinar Primeiro
+Este é o lugar mais comum onde os jogadores se queimam, e não é porque a regra está escondida. É porque os jogadores assumem que os dois limites são a mesma coisa, ou assumem que uma transferência preserva tudo. Os números oficiais dizem o contrário. Verifique a tela de transferência no jogo, que mostrará o limite operante no momento em que você a utiliza, em vez de um guia escrito meses antes.
 
-Jogadores novos perdem mais combos por impaciência do que por execução. Comece com rotas que tenham janelas de timing generosas e depois aperte o timing quando a memória muscular já existir.
+A implicação prática: trate um personagem transferido como um ponto de partida para uma build, não como uma build finalizada. Isso reformula como você gasta o tempo inicial e reduz a frustração de descobrir um teto que você não planejou.
 
-| # | Rota (Notação Genérica) | Dificuldade | Por Que Vale Aprender |
-|---|---|---|---|
-| 1 | Leve → Leve → Pesado | Fácil | Ensina buffering sem elos apertados |
-| 2 | Leve → Pesado → Dash Cancel → Leve | Fácil–Média | Primeira experiência real de cancelar recuperação |
-| 3 | Pesado Bloqueado → Leve de Punição → Pesado | Média | Transforma defesa diretamente em dano |
-| 4 | Launcher → Leve → Leve → Pesado Aéreo | Média | Introduz rotas aéreas |
-| 5 | Agarrão → Leve → Pesado → Finalizador | Média | Ensina timing depois de gastar um recurso |
+## Raças, formas e a estrutura de DBZ
 
-Os nomes dos movimentos mudam conforme sua arma e seu loadout, então adapte a notação ao que seu personagem realmente tem. A estrutura — leve em leve em pesado, ou launcher em aéreo — permanece notavelmente consistente entre estilos de jogo, e é por isso que essas cinco rotas valem a repetição.
+Dragon Ball Z é o material de origem que os desenvolvedores nomeiam na descrição, e o jogo é estruturado em torno disso. Isso significa que a escolha de raça importa, as transformações importam, e a camada de RPG fica sobre uma fantasia de combate de anime em vez de substituí-la.
 
-Um guia rápido de notação, já que os guias a usam o tempo todo:
+A página oficial não publica valores de atributos por raça, multiplicadores de transformação ou níveis de desbloqueio, então este artigo não vai inventá-los. Guias da comunidade discutem esses temas extensivamente e são um ponto de partida razoável, mas trate-os como observações de terceiros: eles descrevem o que os jogadores mediram, não o que os desenvolvedores documentaram. Onde um guia fornece um número preciso, a atitude honesta é verificá-lo você mesmo no jogo, já que o balanceamento muda com as atualizações e a página mostra que o jogo foi atualizado em outubro de 2026.
 
-- **→** significa "então, em sequência".
-- **Cancel** significa que você interrompe os frames de recuperação com outra ação.
-- **Air** significa que o movimento acontece no ar.
-- **Ender** significa o golpe final, de alto comprometimento.
+A escolha de raça e forma ainda molda sua experiência de maneiras óbvias. Se você quer uma build que se encaixe em uma fantasia específica, escolha a raça que a sustenta e deixe os números seguirem. Se você quer eficiência bruta, a discussão de tiers da comunidade é onde essa conversa acontece, mas entenda que você está lendo opinião e não especificação.
 
-## Combos Avançados de Final Stand Remastered: Cancels e Rotas Aéreas
+## Progredindo sem perder tempo
 
-Quando os elos básicos se tornam automáticos, os cancels passam a ser o verdadeiro teto de habilidade. Um cancel permite pular a animação de recuperação de um movimento começando outro, e é assim que jogadores experientes extraem quatro ou cinco golpes extras da mesma abertura.
+Alguns hábitos tornam o jogo da era Namek menos punitivo, e nenhum deles exige conhecimento secreto.
 
-| Tipo de Cancel | O Que Faz | Principal Risco | Melhor Uso |
-|---|---|---|---|
-| Dash cancel | Pula frames de recuperação | Custa distância e stamina | Estender uma rota no meio da tela |
-| Jump cancel | Lança para uma sequência aérea | Te prende no ar | Carregar o oponente em direção ao canto |
-| Special cancel | Encadeia um normal em um special | Geralmente custa medidor | Extrair dano adicional |
-| Troca de arma ou postura | Muda seu moveset no meio da rota | Redefine o posicionamento | Criar um mix-up após a queda |
+Primeiro, saiba onde você está em relação a 125 e 305. Antes de se comprometer com uma transferência, um reroll ou um grind longo, verifique seu nível atual contra ambos os números. A distância até o limite de transferência é um problema de planejamento diferente da distância até o limite de nível.
 
-Três coisas separam rotas avançadas limpas das bagunçadas:
+Segundo, não corra atrás de conteúdo que o ciclo de atualizações pode invalidar. Com um jogo ativo que foi atualizado recentemente, os investimentos mais seguros são os ligados ao seu personagem e ao seu entendimento dos sistemas, não a uma rota de farming específica que alguém postou no ano passado.
 
-1. **Disciplina de stamina.** Uma rota que esvazia sua barra de stamina te deixa incapaz de defender. Termine os combos com uma pequena reserva sempre que possível.
-2. **Consciência de canto.** Rotas aéreas que levam o oponente até a parede valem muito mais do que dano no meio da tela, porque preparam outra sequência de pressão.
-3. **Eficiência de medidor.** Gastar tudo em uma única rota raramente é correto se o round não vai acabar. Guarde recursos quando o oponente ainda tem vida.
+Terceiro, use o tamanho do servidor. Cinquenta jogadores por servidor é bastante. Isso significa que conteúdo em grupo, progressão social e conhecimento gerado pelos jogadores estão genuinamente disponíveis para você. Perguntar no jogo costuma ser mais rápido e mais preciso do que procurar um guia, especialmente para qualquer coisa envolvendo o comportamento atual de drops ou roteamento de missões.
 
-Jogadores que usam armas rápidas costumam preferir extensões com dash cancel, enquanto loadouts mais pesados dependem de jump cancels e finalizadores aéreos. A experiência dos jogadores sugere que a diferença entre esses estilos é menor do que parece — o timing de cancel por trás é quase idêntico.
+Quarto, trate qualquer afirmação sobre códigos, preços ou taxas de drop como não verificada até você vê-la no jogo. A página oficial não documenta nenhuma delas, então qualquer coisa que você leia é ou teste da comunidade ou suposição, e você não consegue distinguir qual é de fora.
 
-## Como Montar, Treinar e Resolver Problemas nos Seus Próprios Combos
+## O que não está documentado, e como verificar
 
-Copiar a rota de outra pessoa só funciona se ela se encaixar nos seus hábitos de espaçamento. Montar a sua própria leva cerca de quinze minutos no modo treino:
+Ser claro sobre as lacunas é mais útil do que preenchê-las com ruído confiante. A página oficial não documenta:
 
-| Passo | Ação | Objetivo |
-|---|---|---|
-| 1 | Escolha um iniciador que você acerta com frequência | Monte em torno dos seus hábitos reais, não dos ideais |
-| 2 | Adicione um elo | Confirme que a continuação conecta 10 vezes seguidas |
-| 3 | Adicione um extensor | Teste de perto, de média e de longa distância |
-| 4 | Escolha um finalizador | Decida entre dano, queda ou segurança |
-| 5 | Adicione um cancel | Só depois que os passos 1–4 estiverem confiáveis |
-| 6 | Execute contra um oponente em movimento | Alvos estáticos escondem problemas de espaçamento |
+- Um sistema de códigos promocionais ou quaisquer códigos ativos
+- Preços de itens, rotações de loja ou conversão de moeda
+- Árvores de habilidades, regras de respec ou custos de build
+- Taxas de drop para qualquer item
+- Notas de patch ou um cronograma de lançamento para a próxima expansão
 
-Quando uma rota vive falhando, a correção costuma ser uma entre algumas poucas coisas:
+Para cada um desses, o caminho de verificação é o mesmo: abra o jogo, leia a interface e verifique a página oficial e os canais do grupo de desenvolvedores para anúncios. Se uma afirmação não está nesses lugares, não é documentação dos desenvolvedores. Isso não a torna falsa, mas a torna algo que você deve confirmar antes de construir um plano em torno dela.
 
-| Sintoma | Causa Provável | Correção |
-|---|---|---|
-| O segundo golpe erra | O iniciador foi bloqueado ou o espaçamento estava longo demais | Confirme a abertura antes de se comprometer |
-| O combo quebra no terceiro golpe | Input cedo ou tarde demais | Diminua o ritmo e observe a animação |
-| Funciona offline, falha online | O buffer de timing muda com a latência | Treine com um pequeno delay |
+## FAQ
 
-Grave seus combos de Final Stand Remastered no modo treino e assista ao replay em velocidade reduzida. É desconfortável, mas expõe inputs perdidos mais rápido do que qualquer quantidade de grind no ranqueado.
+**Final Stand Remastered é o mesmo que Dragon Ball Z Final Stand?**
+É um remaster daquele jogo, feito pelo grupo Final Stand Remastered. A descrição oficial afirma o relacionamento diretamente. É um lugar separado no Roblox com seus próprios números de progressão.
 
-Uma rotina curta e repetível supera sessões maratônicas:
+**Qual é a expansão atual?**
+Namek, segundo a página oficial.
 
-| Exercício | Tempo | Meta de Repetições |
-|---|---|---|
-| Só iniciador + elo | 3 min | 10 repetições limpas por lado |
-| Rota completa para iniciantes | 5 min | 5 repetições limpas seguidas |
-| Extensão com cancel | 5 min | 3 repetições limpas seguidas |
-| Rota contra um dummy em movimento | 5 min | Acertar 3 vezes a partir do neutro |
+**Quais são os limites de nível e transferência?**
+O limite de nível é 305 e o limite de transferência é 125. Eles não são o mesmo valor, e o limite de transferência é o que restringe mover um personagem.
 
-## Perguntas Frequentes sobre Combos de Final Stand Remastered
+**Existem códigos promocionais?**
+A página oficial não documenta nenhum. Se códigos existem, eles viriam através dos canais dos desenvolvedores, então verifique esses em vez de um agregador.
 
-**Qual é o combo mais fácil de Final Stand Remastered para um jogador totalmente novo?**
+**Quantos jogadores cabem em um servidor?**
+Até 50, de acordo com o registro oficial.
 
-Leve → Leve → Pesado. Ele tem uma janela de timing generosa, ensina input buffering e funciona na distância em que a maioria dos iniciantes naturalmente luta. Não avance até conseguir acertá-lo dez vezes seguidas sem errar.
-
-**Os combos funcionam do mesmo jeito em todos os personagens ou armas?**
-
-A estrutura é consistente — iniciador, elo, extensor, finalizador —, mas os movimentos específicos e as janelas de cancel variam conforme o loadout. Armas pesadas tendem a favorecer extensões aéreas, enquanto armas rápidas dependem de dash cancels. Aprenda a estrutura primeiro e depois adapte ao seu kit.
-
-**Por que meus combos quebram nas partidas online, mas funcionam no modo treino?**
-
-A latência muda quanto tempo você tem para bufferizar inputs, e muitos jogadores aceleram inconscientemente quando ficam nervosos. Treine com um pouco de delay simulado e foque em observar a animação em vez de mashar o próximo input.
-
-**Quanto tempo leva para ficar confortável com rotas avançadas?**
-
-Relatos da comunidade sugerem que a maioria dos jogadores precisa de algumas sessões curtas e focadas por rota, em vez de um longo grind. Dez a quinze minutos por dia em um único combo costuma superar uma hora de prática sem estrutura, porque é a repetição com feedback que constrói o timing.
+**Devo seguir um guia de build?**
+Conselhos de build da comunidade são um bom ponto de partida para direção de raça e forma, mas são observação de terceiros, não documentação dos desenvolvedores. Verifique qualquer coisa numérica no jogo, já que a experiência foi atualizada em outubro de 2026 e o balanceamento pode mudar.

@@ -2,8 +2,8 @@
   "site": {
     "name": "Final Stand Remastered Wiki",
     "shortName": "Final Stand Remastered",
-    "tagline": "Codes, Weapons, Upgrades & Guides",
-    "description": "Final Stand Remastered Wiki provides weapon guides, gameplay tips, update information, strategies, and essential resources to help Roblox players master battles and progression.",
+    "tagline": "Races, Forms, Leveling & Guides",
+    "description": "Final Stand Remastered Wiki provides race guides, progression tips, expansion information, strategies, and essential resources to help Roblox players progress in this anime-inspired RPG.",
     "legalNotice": "Non-official fan wiki. Made by players, for players."
   },
   "nav": {
@@ -21,21 +21,21 @@
   },
   "home": {
     "meta": {
-      "title": "Final Stand Remastered Wiki - Codes, Weapons & Guides",
-      "description": "Final Stand Remastered Wiki provides weapon guides, gameplay tips, update information, strategies, and essential resources to help Roblox players master battles and progression."
+      "title": "Final Stand Remastered Wiki - Races, Forms & Guides",
+      "description": "Final Stand Remastered Wiki provides race guides, progression tips, expansion information, strategies, and essential resources to help Roblox players progress in this anime-inspired RPG."
     },
     "hero": {
-      "eyebrow": "Roblox Tactical Survival Shooter",
+      "eyebrow": "Roblox Anime-Inspired RPG",
       "title": "Final Stand Remastered Wiki",
-      "description": "Final Stand Remastered is a Roblox combat survival game focused on intense battles, weapons, upgrades, and tactical gameplay. Explore guides, equipment information, strategies, and the latest game updates.",
+      "description": "Final Stand Remastered is a Roblox remaster of the classic Dragon Ball Z Final Stand RPG, with races, leveling, forms, and an expansion structure. Explore guides, race information, strategies, and the current expansion details.",
       "stats": [
-        "Weapons Available",
-        "Upgrades & Loadouts",
-        "0 Active Codes",
-        "Weekly Updates"
+        "Races & Builds",
+        "Forms & Transformations",
+        "No documented Codes",
+        "Expansion: Namek"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Weapons Guide",
+      "secondaryCta": "Races Guide",
       "tertiaryCta": "Play on Roblox",
       "videoLabel": "Official media"
     },
@@ -51,22 +51,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Learn the core loop prepare, deploy, survive, collect, and upgrade so your first Final Stand Remastered runs end in a win instead of a wipe."
+          "description": "Learn the core loop of choosing a race, building a fighter, training, and progressing so your first Final Stand Remastered sessions go smoothly."
         },
         {
           "number": "2",
-          "title": "All Working Codes",
-          "description": "See where Final Stand Remastered codes drop first, how to redeem them inside the game, and why the live ones expire so quickly."
+          "title": "Code Status",
+          "description": "Final Stand Remastered does not document a promo-code system, so this page explains what is and is not officially confirmed instead of listing unverifiable codes."
         },
         {
           "number": "3",
           "title": "Fastest Leveling",
-          "description": "Build a training routine of practice reps, economy runs, and role drills that pushes your Final Stand Remastered progression curve forward."
+          "description": "Build a training routine of practice reps, quest runs, and role drills that pushes your Final Stand Remastered progression curve forward."
         },
         {
           "number": "4",
           "title": "Best Race & Build",
-          "description": "Compare the Saiyan, Namekian, Human, and Frieza archetypes before you commit, so your Final Stand Remastered build scales instead of stalling."
+          "description": "Compare the Saityan, Namekian, Human, and Frieza archetypes before you commit, so your Final Stand Remastered build scales instead of stalling."
         }
       ]
     },
@@ -75,21 +75,21 @@
       "title": "Trending Now",
       "quickLinks": [
         "Beginner Guide",
-        "Active Codes",
-        "Race Tier Tips",
+        "Code Status",
+        "Race Guides",
         "Boss Strategies"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first deploy to holding a position through the final wave.",
+          "description": "Everything you need from your first race choice to holding your own through the early game.",
           "href": "/guide/final-stand-remastered-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "How to find live Final Stand Remastered codes, redeem them in game, and spot recycled fakes.",
+          "title": "Code Status",
+          "description": "Final Stand Remastered does not document a promo-code system, so this page explains what is officially confirmed and what is not.",
           "href": "/codes/final-stand-remastered-codes"
         },
         {
@@ -101,7 +101,7 @@
         {
           "badge": "Updated",
           "title": "Stat Guide",
-          "description": "Stat priority tiers, build archetypes, and respec advice for every playstyle.",
+          "description": "Stat priorities, build archetypes, and respec advice for every playstyle.",
           "href": "/guide/final-stand-remastered-stat-guide"
         },
         {
@@ -139,8 +139,8 @@
     "aboutGame": {
       "title": "What is Final Stand Remastered?",
       "paragraphs": [
-        "Final Stand Remastered is a Roblox combat survival game where you pick a race, build a fighter, and hold your ground against escalating waves of enemies. Races such as Saiyan, Namekian, Human, and Frieza set your base stats, innate traits, and ability access, while forms, ki moves, and stat allocation decide how far a build scales.",
-        "Every session follows the same loop: prepare a loadout, deploy into the arena, survive the pressure, bank the rewards, and spend them on upgrades that carry into the next run. Because bosses and later waves are knowledge-gated rather than grind-gated, reading telegraphs, holding good ground, and timing your upgrades matter more than raw playtime and that is exactly what these guides cover."
+        "Final Stand Remastered is a Roblox anime-inspired RPG where you pick a race, build a fighter, and progress through leveling and an expansion structure. Races such as Saiyan, Namekian, Human, and Frieza set your base stats, innate traits, and ability access, while forms, ki moves, and stat allocation decide how far a build scales.",
+        "The official Roblox page lists a current expansion (Namek), a level cap of 305, and a transfer cap of 125. Every session follows a similar loop: prepare your build, train or fight, survive the pressure, bank the rewards, and spend them on upgrades that carry into the next step. Because later content is knowledge-gated rather than purely grind-gated, reading telegraphs, holding good ground, and timing your upgrades matter more than raw playtime and that is exactly what these guides cover."
       ],
       "stats": [
         {
@@ -149,70 +149,70 @@
         },
         {
           "label": "Genre",
-          "value": "Combat Survival"
+          "value": "Anime-Inspired RPG"
         },
         {
           "label": "Play Mode",
-          "value": "Solo & Co-op"
+          "value": "Up to 50 players per server"
         },
         {
           "label": "Core Systems",
           "value": "Races & Forms"
         },
         {
-          "label": "Update Cadence",
-          "value": "Weekly"
+          "label": "Current Expansion",
+          "value": "Namek"
         },
         {
-          "label": "Guide Library",
-          "value": "40 Guides"
+          "label": "Level Cap",
+          "value": "305"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Final Stand Remastered Wiki",
-      "description": "Everything you need to progress in Final Stand Remastered, from active codes and beginner basics to races, stats, bosses, controls, and the latest updates.",
+      "description": "Everything you need to progress in Final Stand Remastered, from beginner basics to races, stats, bosses, controls, and the latest updates.",
       "modules": [
         {
           "order": 1,
-          "name": "Final Stand Remastered Codes",
-          "description": "Track legitimate codes, learn how to redeem them inside the game, and avoid the recycled fakes that fill low-effort list pages.",
+          "name": "Final Stand Remastered Code Status",
+          "description": "The official page does not document a promo-code system, so this page explains what is confirmed and directs players to official channels for announcements instead of listing unverifiable codes.",
           "href": "/codes/final-stand-remastered-codes",
           "displayType": "code-cards",
           "highlights": [
             {
               "label": "Source",
-              "detail": "New codes surface first on official developer channels and in-game update notes, not on aggregator sites"
+              "detail": "No official promo-code system is documented on the Roblox page, so check the official group and in-game notices for any announcements"
             },
             {
               "label": "Timing",
-              "detail": "Drops are tied to milestones and events, and most expire within days, so redeem the moment you see one"
+              "detail": "Reliable code drops are not documented, so treat any unconfirmed list as unverified"
             },
             {
-              "label": "Redeem",
-              "detail": "Open the settings menu, type the code by hand, then confirm the reward in your inventory"
+              "label": "Status",
+              "detail": "This page does not claim working codes and instead explains what is officially confirmed"
             }
           ]
         },
         {
           "order": 2,
           "name": "Final Stand Remastered Beginner Guide",
-          "description": "A step-by-step walkthrough of the core loop, positioning fundamentals, and the upgrades worth buying in your first runs.",
+          "description": "A step-by-step walkthrough of the core loop, positioning fundamentals, and the upgrades worth buying in your first sessions.",
           "href": "/guide/final-stand-remastered-beginner-guide",
           "displayType": "step-by-step",
           "highlights": [
             {
               "label": "1",
-              "detail": "Pick one clear goal and a loadout you can actually control before you deploy"
+              "detail": "Pick one clear goal and a build you can actually control before you enter combat"
             },
             {
               "label": "2",
-              "detail": "Take a defensible chokepoint early instead of sprinting straight into the fight"
+              "detail": "Take a defensible position early instead of rushing straight into the fight"
             },
             {
               "label": "3",
-              "detail": "Manage spacing, ammo, and cooldowns before any of them hit zero"
+              "detail": "Manage spacing, stamina, and cooldowns before any of them hit zero"
             },
             {
               "label": "4",
@@ -265,19 +265,19 @@
           "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "S",
+              "label": "Damage",
               "detail": "Offensive damage and max health, commit early because they carry every build"
             },
             {
-              "label": "A",
+              "label": "Survival",
               "detail": "Armor, damage reduction, and stamina, the stats that quietly save runs"
             },
             {
-              "label": "B",
+              "label": "Utility",
               "detail": "Reload speed, movement, and critical chance, strong once the core is set"
             },
             {
-              "label": "C",
+              "label": "Niche",
               "detail": "Utility and regeneration, niche picks for co-op and long-run builds"
             }
           ]
@@ -386,7 +386,7 @@
           "highlights": [
             {
               "label": "Balance",
-              "detail": "Weapon, ability, and economy tuning, so re-test your main kit before ranked play"
+              "detail": "Weapon, ability, and economy tuning, so re-test your main kit before competitive play"
             },
             {
               "label": "Bug Fixes",
@@ -418,7 +418,7 @@
       "items": [
         {
           "question": "What is Final Stand Remastered?",
-          "answer": "Final Stand Remastered is a Roblox combat survival game where you choose a race, build a fighter, and hold your ground against escalating waves of enemies. Races, forms, ki moves, and stat allocation all feed into how far a build scales."
+          "answer": "Final Stand Remastered is a Roblox anime-inspired RPG that remasters the classic Dragon Ball Z Final Stand. You choose a race, build a fighter, and progress through leveling and an expansion structure. Races, forms, ki moves, and stat allocation all feed into how far a build scales."
         },
         {
           "question": "Which race should beginners pick in Final Stand Remastered?",
@@ -426,7 +426,7 @@
         },
         {
           "question": "Are there any active Final Stand Remastered codes?",
-          "answer": "Final Stand Remastered codes drop around milestones and events rather than on a fixed schedule, and most expire within days. Check the official developer channels and the in-game update notes first, then redeem quickly."
+          "answer": "The official Roblox page does not document a promo-code system for Final Stand Remastered, so no reliable list of active codes exists. Check the official group and in-game notices for any confirmed announcements."
         },
         {
           "question": "How do you level up faster in Final Stand Remastered?",
@@ -471,7 +471,7 @@
   },
   "codes": {
     "overviewTitle": "Final Stand Remastered Codes",
-    "overviewDescription": "All active Final Stand Remastered codes, how to redeem them, and what each reward gives you."
+    "overviewDescription": "The official page does not document a promo-code system, so this page explains what is confirmed and what is not."
   },
   "updates": {
     "overviewTitle": "Final Stand Remastered Updates",
@@ -479,7 +479,7 @@
   },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
-    "activeCodes": "Active Codes",
+    "activeCodes": "Code Status",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
     "playOnRoblox": "Play on Roblox",
@@ -496,12 +496,12 @@
   },
   "footer": {
     "aboutTitle": "Final Stand Remastered Wiki",
-    "about": "Final Stand Remastered Wiki is an independent fan-built guide hub covering weapons, upgrades, maps, bosses, and essential game knowledge for new and veteran players alike.",
+    "about": "Final Stand Remastered Wiki is an independent fan-built guide hub covering races, forms, progression, bosses, and essential game knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
     "copyright": "2026 Final Stand Remastered Wiki. Not affiliated with the game's developers or Roblox.",
-    "description": "Free tactical survival shooter on Roblox. Intense battles, weapons, upgrades, and squad-based combat.",
+    "description": "Free anime-inspired RPG on Roblox. Races, leveling, forms, and expansion progression.",
     "playGame": "Play Final Stand Remastered on Roblox",
     "officialDiscord": "Official Roblox Community",
     "officialYoutube": "Gameplay Videos",

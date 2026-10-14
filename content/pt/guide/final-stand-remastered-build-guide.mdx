@@ -1,119 +1,81 @@
 export const metadata = {
-  title: "Guia de Build do Final Stand Remastered: Melhores Perks, Loadouts e Funções",
-  description: "Um guia prático de build do Final Stand Remastered cobrindo funções, loadouts, prioridade de perks e dicas de teste para que seu esquadrão sobreviva a ondas mais profundas.",
+  title: "Final Stand Remastered: Guia do Jogador para o RPG de Roblox",
+  description: "Saiba o que é Final Stand Remastered, como funcionam a expansão Namek e os limites, e como verificar detalhes no jogo no Roblox.",
   category: "guide",
   date: "2026-10-14",
-}
+};
 
-A maioria dos jogadores perde sua primeira run séria pelos mesmos poucos erros: upgrades espalhados, armas incompatíveis e um loadout que briga consigo mesmo. É exatamente isso que este guia de build do Final Stand Remastered vem corrigir — uma estrutura prática para transformar escolhas aleatórias em uma build que realmente aguenta a pressão. Se você está aprendendo o jogo pela primeira vez ou voltando depois de um longo intervalo, tratar sua configuração como um projeto de guia de build do Final Stand Remastered em vez de um monte de palpites vai economizar horas de frustração.
+Final Stand Remastered é uma experiência de Roblox que ocupa uma posição incomum: é um remaster de um RPG conhecido inspirado em anime, mas também é um jogo ativo por conta própria, com seus próprios limites, seu próprio ciclo de expansões e sua própria equipe de desenvolvimento. Se você ouviu o nome e quer saber no que está realmente entrando, a página oficial de [Final Stand Remastered](https://www.roblox.com/games/7922773201/Final-Stand-Remastered) no Roblox é a única fonte que fala pelo próprio jogo. Todo o resto, incluindo os conselhos voltados à comunidade neste artigo, é secundário.
 
-A boa notícia é esta: builds fortes nesse gênero raramente se resumem a descobrir uma combinação secreta. Elas consistem em escolher uma função, se comprometer com ela e garantir que cada arma, perk e escolha de companheiro de equipe apoie essa função. As seções abaixo abordam pilares, arquétipos, sinergia, erros e testes — na ordem em que você deveria realmente pensar sobre eles.
+Este guia separa três coisas que costumam se confundir nas discussões sobre o jogo: o que a página oficial divulga, o que os jogadores geralmente observam nos servidores e o que simplesmente não está documentado em nenhum lugar confiável.
 
-## Os Quatro Pilares de uma Build Forte
+## O que a página oficial realmente diz
 
-Todo setup viável se apoia em quatro pilares, e todo setup fraco geralmente negligencia pelo menos um deles. Antes de tocar em um menu de perks, decida em torno de quais dois pilares sua build realmente será construída.
+O registro oficial no Roblox descreve Final Stand Remastered como um remaster de Dragon Ball Z Final Stand, um RPG mais antigo do Roblox. Ele nomeia a expansão atual como Namek, define o limite de nível em 305 e define o limite de transferência em 125. A página também credita a equipe de desenvolvimento por função, incluindo o designer principal, programadores, designers, modeladores, artistas e um animador.
 
-| Pilar | O que abrange | Por que importa | Sinal de alerta de que você está negligenciando |
-|---|---|---|---|
-| Dano | Escolha de arma, perks de dano, tiros na cabeça ou em pontos fracos | Determina a rapidez com que as ameaças morrem antes de se acumularem | Você continua lutando contra o mesmo tipo de inimigo por tempo demais |
-| Sobrevivência | Vida, armadura, cura, perks defensivos | Permite manter a posição quando a onda fica feia | Você morre cedo em toda run, mesmo com bom posicionamento |
-| Mobilidade | Corrida, esquiva, ferramentas de reposicionamento | Tira você de situações ruins e coloca em bons ângulos | Você fica encurralado sem opção de fuga |
-| Utilidade | Controle de grupo, efeitos de suporte, perks de munição ou recursos | Multiplica o que toda a equipe pode fazer | Seu esquadrão fica sem recursos ou é dominado em espaços apertados |
+Esses são os fatos essenciais. Eles indicam que o jogo é estruturado em torno de expansões, e não de um único mundo finalizado, que a progressão tem um teto rígido e que existe um limite separado de "transferência" que importa para como os personagens se movem entre estados do jogo.
 
-Você não pode maximizar todos os quatro — e não deveria tentar. O padrão mais confiável é forçar dois pilares ao máximo, manter um em um nível funcional básico e deixar um companheiro de equipe cobrir o quarto. Uma build que é "bem boa" em tudo tende a não ser genuinamente boa em nada quando a dificuldade aumenta.
+A página também lista informações práticas sobre os servidores. Cada servidor suporta até 50 jogadores. O lugar foi criado em novembro de 2021, foi atualizado pela última vez em outubro de 2026 e tem cerca de 19,7 milhões de visitas. Vale a pena notar essa data de atualização: um jogo que ainda estava sendo atualizado no final de 2026 não está abandonado, mesmo que a conversa da comunidade em torno dele se mova em surtos.
 
-## Arquétipos de Build: Escolha uma Função, Não Apenas uma Arma
+| Item | Dado oficial |
+|---|---|
+| Expansão atual | Namek |
+| Limite de nível | 305 |
+| Limite de transferência | 125 |
+| Jogadores por servidor | Até 50 |
+| Visitas | Cerca de 19,7 milhões |
+| Lugar criado | 6 de novembro de 2021 |
+| Última atualização | 12 de outubro de 2026 |
 
-Jogadores novos costumam escolher uma arma primeiro e depois parafusar perks nela. Jogadores experientes fazem o oposto: escolhem uma função e depois escolhem o equipamento que a serve. Aqui estão os arquétipos que aparecem repetidas vezes em esquadrões bem-sucedidos.
+## Por que os limites importam mais do que parecem
 
-| Arquétipo | Ideia central | Pontos fortes | Pontos fracos | Melhor quando |
-|---|---|---|---|---|
-| Âncora | Segurar uma rota e absorver pressão | Muito resistente, estabiliza a equipe | Lento para rotacionar, menor dano explosivo | Seu esquadrão continua perdendo terreno |
-| Rompedor | Direcionar dano para alvos prioritários | Abates rápidos, alta pressão | Frágil se sem suporte | Você precisa eliminar uma ameaça específica |
-| Controlador | Moldar a luta com utilidade | Habilita todos os outros, forte em corredores | Precisa de companheiros para converter seu setup | Pontos de estrangulamento importam no mapa |
-| Escaramuçador | Mover-se constantemente, trocar e resetar | Difícil de encurralar, ótimo na limpeza | Punitivo se sua movimentação falhar | O mapa é aberto e as lutas são caóticas |
-| Suporte | Sustentar e reabastecer o esquadrão | Estende cada run, alto valor em grupos | Baixo dano pessoal | Você joga com um grupo consistente |
+Dois números na página oficial fazem a maior parte do trabalho de moldar como você joga. O limite de nível de 305 indica o teto da trilha de progressão atual. O limite de transferência de 125 é o menos óbvio. Ele implica que o jogo distingue entre o progresso que você acumula em um personagem e o que é levado adiante quando você transfere, e que a parte transferível tem um limite bem abaixo do nível máximo.
 
-Escolher um arquétipo cedo evita o arrependimento de respec mais tarde. Se você gastar seus primeiros upgrades em preenchimentos generalistas, muitas vezes acaba com uma build que não consegue se comprometer com nada quando o conteúdo mais difícil chega.
+Na prática, isso significa que um jogador que corre até o limite de nível e um jogador que planeja em torno do limite de transferência estão otimizando para coisas diferentes. O primeiro está buscando o topo da trilha atual. O segundo está gerenciando o que sobrevive a uma mudança. Como a página oficial não explica o mecanismo de transferência em detalhes, você deve tratar qualquer explicação específica que ler em outro lugar como uma interpretação da comunidade, e não como uma regra. A forma confiável de verificar é dentro do próprio jogo, onde os menus relevantes mostrarão seus próprios números.
 
-Uma ressalva que vale repetir: patches de balanceamento mudam quais arquétipos parecem mais fortes, e relatos da comunidade sobre a "melhor" build atual geralmente são um retrato momentâneo, não uma verdade permanente. Aprenda o *motivo* pelo qual uma build funciona — a sinergia — e você poderá se adaptar quando os números mudarem.
+## A expansão Namek e a questão do remaster
 
-## Sinergia de Loadout e Perks: Faça Tudo Concordar
+Chamar Namek de expansão "atual" é uma escolha de palavra significativa. Isso indica que o jogo passou por fases de conteúdo e espera continuar fazendo isso. Um remaster que já chegou a um ciclo de expansões não é um projeto de preservação congelado; é um jogo em andamento com formato de roteiro, mesmo que esse roteiro não esteja publicado na página do Roblox.
 
-Sinergia é a diferença entre uma build e uma lista de compras. Uma espingarda com perks de dano de longo alcance não é uma build; são duas decisões brigando entre si.
+O enquadramento como remaster também explica parte da confusão do público. Dragon Ball Z Final Stand tem sua própria história e seus próprios jogadores, e Final Stand Remastered é uma experiência separada que reformula esse material. Se você está procurando o original, não o encontrará nesta página. Se você está procurando a versão reconstruída, está no lugar certo. A lista de créditos de desenvolvedores, que nomeia funções individuais em vez de um único criador, é consistente com um projeto de equipe organizado, e não com uma adaptação solo.
 
-### Combine seu alcance com sua função
+## Observações da comunidade versus fatos documentados
 
-| Se sua arma principal é… | Combine com… | Evite… | Porque… |
-|---|---|---|---|
-| Curto alcance e alto impacto | Perks defensivos, mobilidade, efeitos de atordoamento | Perks de precisão de longo alcance | Você raramente luta no alcance que esses perks cobrem |
-| Médio alcance e flexível | Perks de cadência de tiro ou manuseio, utilidade leve | Penalidades pesadas de movimento | A flexibilidade é o ponto principal da arma |
-| Longo alcance e preciso | Perks de ponto fraco ou precisão, ferramentas de reposicionamento | Perks agressivos de avanço | Você quer controlar a distância, não encurtá-la |
-| Utilidade ou focada em área | Efeitos de controle de grupo, perks de recursos | Perks de dano explosivo em alvo único | Sua função é moldar lutas, não duelar |
+Guias de terceiros e conversas no Discord são úteis para orientação, mas são observações, não documentação. Quando um guia da comunidade descreve uma rota de progressão, uma raça preferida ou uma abordagem de treinamento, isso é o relato de um jogador sobre o que funcionou para ele em um determinado momento. Não é o desenvolvedor descrevendo o sistema.
 
-### Acumule efeitos em vez de espalhá-los
+A página oficial não documenta um sistema de códigos promocionais. Ela não lista preços de itens, árvores de habilidades ou taxas de drop. Ela não publica uma lista de tiers de raças ou multiplicadores de atributos. Se uma fonte apresenta qualquer um desses itens como confirmado pelo desenvolvedor, essa afirmação não é sustentada pela página que podemos realmente verificar. A posição honesta é: esses sistemas podem muito bem existir no jogo, mas seus detalhes não fazem parte do registro oficial, então números específicos que circulam online devem ser tratados como informação de segunda mão até que você mesmo os confirme.
 
-Três perks que melhoram o mesmo comportamento geralmente superam seis perks que fazem algo diferente cada um. Faça uma pergunta para cada escolha: *isto fortalece minha função principal, ou apenas parece útil?* Se um perk não alimenta seu arquétipo, ele pertence a uma build diferente.
+Veja como verificar qualquer coisa sobre a qual você tenha dúvidas:
 
-Fique atento aos retornos decrescentes também. Quando um atributo já está confortavelmente resolvido, investir mais nele geralmente vale menos do que corrigir uma fraqueza real. A experiência dos jogadores sugere consistentemente que equilibrado-mas-focado supera extremo-e-frágil em dificuldades mais altas.
+- Abra o jogo e leia a interface diretamente. Requisitos de nível, opções de transferência e expansões geralmente ficam visíveis nos menus.
+- Verifique a página oficial do Roblox para o nome da expansão atual, o limite de nível e o limite de transferência antes de confiar em um guia mais antigo.
+- Observe a data da última atualização na página. Se um guia é anterior a uma atualização significativa, seus conselhos podem descrever uma versão do jogo que não existe mais.
+- Trate qualquer número, preço ou taxa de drop específico de uma fonte de terceiros como não verificado até que o jogo mostre isso a você.
 
-## Erros Comuns de Build e Como Corrigi-los
+## Uma forma prática de abordar o jogo
 
-| Erro | Como aparece na prática | Abordagem melhor |
-|---|---|---|
-| Copiar a build de um jogador de elite cegamente | Forte no papel, horrível nas suas mãos | Copie a *lógica*, ajuste o equipamento à sua mira e reflexos |
-| Pular completamente a sobrevivência | Dano enorme, morto na primeira luta de verdade | Mantenha uma ferramenta defensiva como piso |
-| Perks redundantes | Dois perks fazendo quase a mesma coisa | Substitua o mais fraco por utilidade ou mobilidade |
-| Ignorar a composição da equipe | Quatro jogadores com kits idênticos | Coordene para que cada arquétipo seja coberto |
-| Trocar de build no meio da run | Nenhum upgrade amadurece | Comprometa-se por uma run inteira, depois avalie |
-| Corrigir problemas com mais dano | "Se eu matar mais rápido, não vou precisar de vida" | Diagnostique a falha real: posicionamento, alcance ou resistência |
+Considerando o que está documentado, a abordagem sensata é direta. Comece jogando e aprendendo os sistemas que o jogo apresenta a você, em vez de seguir uma tabela de atributos de uma fonte desconhecida. Acompanhe seu próprio progresso em relação ao limite de nível de 305 para saber quanto espaço ainda tem. Preste atenção ao limite de transferência de 125 desde cedo, antes de ter investido pesadamente em um personagem que você talvez queira mover depois.
 
-O erro dos perks redundantes é o silencioso. Ele não parece ruim — parece eficiente, porque você está "maximizando" algo. Mas dois efeitos sobrepostos geralmente deixam um buraco evidente em algum outro lugar da build, e é esse buraco que te mata na run que importava.
+Use recursos da comunidade para orientação: eles podem dizer que tipos de atividades existem e mais ou menos como o jogo flui. Não os use como substituto para os próprios menus do jogo. E fique de olho na página oficial. Mudanças de expansão e mudanças de limite são o tipo de atualização que invalida grandes quantidades de conteúdo de guias acumulado da noite para o dia, e o ecossistema de final-stand claramente foi atualizado recentemente.
 
-## Testes, Jogo em Equipe e Refinamento da Sua Build
+Nada disso garante um resultado específico. Os sistemas do jogo são documentados publicamente apenas em parte, e a velocidade com que você progride depende de como você joga, de quanto tempo você tem e do que os desenvolvedores mudam em seguida. O que esta abordagem oferece é uma forma de evitar agir com base em informações ruins.
 
-Uma build é uma hipótese até você colocá-la em prática. Trate cada tentativa como um teste com uma pergunta clara, em vez de uma vaga esperança de que funcione desta vez.
+## FAQ
 
-### Um ciclo simples de testes
+**Final Stand Remastered é o mesmo jogo que Dragon Ball Z Final Stand?**
+Não. A página oficial o descreve como um remaster de Dragon Ball Z Final Stand, o que o torna uma experiência separada construída sobre esse material.
 
-- Escolha um arquétipo e um objetivo principal para a run.
-- Anote o primeiro momento em que as coisas deram errado — esse é o seu ponto de dados.
-- Mude uma coisa de cada vez para saber o que realmente ajudou.
-- Rode a build revisada mais algumas vezes antes de julgá-la.
-- Só então redistribua os pontos; evite reconstruir após cada morte.
+**Qual é a expansão atual?**
+A página oficial nomeia Namek como a expansão atual.
 
-| O que você está testando | O que observar | Ajuste se… |
-|---|---|---|
-| Dano | Com que rapidez os alvos prioritários caem | As lutas se arrastam e a onda se acumula |
-| Sobrevivência | Com que frequência você cai abaixo de uma vida confortável | Você está curando mais do que lutando |
-| Mobilidade | Se você consegue se desengajar de uma situação ruim | Você continua ficando preso no mesmo canto |
-| Utilidade | Se os companheiros de equipe se beneficiam do seu kit | Seu esquadrão fica sem recursos no meio da onda |
+**Quais são os limites?**
+O limite de nível é 305 e o limite de transferência é 125, de acordo com a página oficial.
 
-### Cubra as funções em grupo
+**Existem códigos promocionais?**
+A página oficial do Roblox não documenta um sistema de códigos. Se os códigos existirem, eles precisariam vir de canais dos desenvolvedores, não desta página.
 
-| Tamanho do esquadrão | Distribuição recomendada | Observações |
-|---|---|---|
-| Dois jogadores | Um âncora, um rompedor ou escaramuçador | Mantenha pelo menos uma ferramenta defensiva entre vocês |
-| Três jogadores | Âncora, rompedor, controlador | O controlador frequentemente decide onde as lutas acontecem |
-| Quatro jogadores | Âncora, rompedor, controlador, suporte | Melhor cobertura; a sustentação se torna a condição de vitória |
+**Quantos jogadores cabem em um servidor?**
+Até 50.
 
-Se você quiser conferir as notas de patch, detalhes de eventos ou o estado atual do jogo por conta própria, a [página oficial de descoberta de jogos da Roblox](https://www.roblox.com/discover) é o ponto de partida mais confiável, e é melhor do que confiar em um vídeo de um mês atrás. Listas de builds da comunidade são úteis para inspiração, mas verifique-as com suas próprias runs — seus reflexos, seu esquadrão e seu conhecimento do mapa mudam o que "ideal" significa.
-
-Por fim, mantenha um breve registro escrito do que funcionou. Três linhas por run já bastam. Ao longo de uma semana, esse registro se torna um guia de build do Final Stand Remastered muito melhor do que qualquer coisa que você pudesse memorizar, porque é específico de como *você* joga.
-
-## Perguntas Frequentes
-
-**Quantas builds devo manter prontas no Final Stand Remastered?**
-Duas costuma ser o ponto ideal: um arquétipo focado que você conhece de cor, mais um backup flexível para quando seu esquadrão já tem sua função principal coberta. Uma terceira build experimental é válida, mas não espalhe sua prática demais.
-
-**É melhor maximizar um atributo ou distribuir os upgrades igualmente?**
-Para a maioria dos jogadores, comprometa-se com dois pilares e alcance um nível básico confortável em mais um. Distribuir igualmente tende a produzir builds que parecem boas em conteúdo fácil e desmoronam quando a pressão aumenta.
-
-**Posso seguir um guia de build popular do Final Stand Remastered e ainda me sair bem?**
-Sim, desde que você entenda por que a build funciona. Se você copiar a lista de perks mas ignorar a função, o posicionamento e o contexto de equipe por trás dela, os resultados raramente correspondem ao vídeo que você assistiu.
-
-**Como sei quando abandonar uma build?**
-Se você já rodou o mesmo setup várias vezes, corrigiu os erros óbvios e ele ainda falha pelo mesmo motivo todas as vezes, o conceito central provavelmente está errado para você. Mude o arquétipo, não apenas os números.
-
-**O que mais importa para iniciantes?**
-Sobrevivência e posicionamento. Uma build de iniciante que sobrevive tempo suficiente para aprender os padrões dos inimigos terá desempenho melhor do que um setup de canhão de vidro que morre antes de a lição ser aprendida.
+**Onde devo verificar os detalhes atuais?**
+A página oficial de [Final Stand Remastered](https://www.roblox.com/games/7922773201/Final-Stand-Remastered) no Roblox, além do que o próprio jogo mostra a você em seus menus.
